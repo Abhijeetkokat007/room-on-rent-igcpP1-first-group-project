@@ -1,4 +1,4 @@
-﻿# Rent On Room
+﻿# 🏠Room On Rent
 
 # Group Members
 <li>Abhijeet Kokat </li>
@@ -8,13 +8,14 @@
 <li>Dattatray Tupe </li>
 <li>Shital Warkhade </li>
 
-# Group Member Works 
+# Group Member Works
+## Phase I
 <li>Navbar And Footer :- @Abhijeetokat007 </li>
-<li>Mumbai city page :- @shitalwarkhade89 </li>
+<li>Form :- @shitalwarkhade89 </li>
 <li>Service :- @Bandinikohare2001 </li>
 <li>Cards :- @Harshvardhan-Kh </li>
-<li>Pune city page :- @aaru-01 </li>
-<li>All login page :- @datta88 </li>
+<li>About page :- @aaru-01 </li>
+<li>Login page :- @datta88 </li>
 
 
 
