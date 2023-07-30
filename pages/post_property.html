@@ -4,85 +4,7 @@
 <head>
 
     <title>post property</title>
-    <style>
-        .main-div {
-
-            width: 800px;
-            background-color: #ffe6ff;
-            text-align: center;
-        }
-
-        .form-div {
-            height: 700px;
-            width: 500px;
-            background-color: white;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .heading {
-            text-align: center;
-            margin: 10px;
-            position: relative;
-            top: 40px;
-            right: 25px;
-            font-size: 30px;
-        }
-
-        .sub-heading {
-            text-align: center;
-            font-size: 20px;
-            margin: 20px;
-            position: relative;
-            top: 28px;
-            right: 30px;
-        }
-
-        .sub-heading-span {
-            background-color: #ffcc33;
-        }
-
-        .personal-detail {
-            text-align: center;
-            position: relative;
-            right: 110px;
-        }
-
-        .redio-btn-name {
-            position: relative;
-            text-align: start;
-        }
-
-        .rdo-btn {
-            margin-right: 100px;
-        }
-
-        .name {
-            right: 170px;
-        }
-
-        .input-box {
-            font-size: 15px;
-            width: 240px;
-            margin-right: 120px;
-            padding: 10px;
-            border: none;
-            border-bottom: 1px solid #81808080;
-        }
-
-        .input-box:focus {
-            outline: none;
-        }
-        .proprty-name{
-           background-color: rgb(168, 164, 164);
-           display: block;
-        }
-       
-
-        
-        
-    </style>
+    <link rel="stylesheet" href="./../css/post_property.css">
 </head>
 
 <body>
@@ -124,7 +46,7 @@
             <h2 class="personal-detail">Property Details</h2>
 
             <p class="rdo-btn">
-                <span class="redio-btn-name">For</span>&nbsp;&nbsp;
+                <span class="redio-btn-name"> &nbsp; &nbsp; &nbsp;For</span>&nbsp;&nbsp;
                 <input type="radio" name="property" id=" Sale" />
                 <label for=" Sale">Sale</label>&nbsp;&nbsp;
 
@@ -135,22 +57,60 @@
                 <label for="PG/Hostel">PG/Hostel&nbsp;&nbsp;
                 </label>
             </p>
-            <p class="personal-detail name"> &nbsp;&nbsp; Property Type</p>
+            <p class="personal-detail name"> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Property Type</p>
             <form>
-               
-        
+
+
                 <select class="input-box ">
-                  <option>Select Property Type</option>
-                  <option><span class="proprty-name">All Recidential</span></option>
-                 <option>Falat Appartment</option>
-                  <option>Villa</option>
-                  <option>Recidential House</option>
+                    <option>Select Property Type</option>
+                    <option>All Recidential</option>
+                    <option>Falat Appartment</option>
+                    <option>Villa</option>
+                    <option>Recidential House</option>
+                    <option> All Commercial </option>
+                    <option>Warehouse</option>
+                    <option>Commercial Office Space</option>
+                    <option>Commercial Shop</option>
+                    <option>All Agriculture</option>
+                    <option>Farm House</option>
+
+
+
                 </select>
-              </form>
+            </form><br />
+            <h2 class="personal-detail"> &nbsp;&nbsp;Property Location</h2>
+            <p class="personal-detail name mobile">City</p>
+            <form>
+                <input class="input-box" type="text" placeholder="Enter City" />
+            </form>
+            <p class="personal-detail name mobile"> &nbsp;&nbsp;Locality</p>
+            <form>
+                <input class="input-box" type="text" placeholder="Enter Locality" />
+            </form>
+            <br />
+            <div>
 
-            
+                <form>
+                    <div class="checboxes">
+                        <input type="checkbox" id="info1" />
+                        <label for="info1">I am posting this property 'exclusively' on Room On Rent</label> <br /><br />
 
-            
+                        <input type="checkbox" id="info2" />
+                        <label for="info2">I agree to Magicbricks T&C, Privacy Policy, & Cookie Policy</label> <br />
+                        <br />
+                        <input type="checkbox" id="info3" />
+                        <label for="info3">I want to receive responses on Whatsapp
+                        </label> <br />
+                        <br />
+                    </div>
+                </form>
+                <button class="log-post-btn">Login & Post Property</button>
+
+            </div>
+
+
+
+
 
         </div>
     </div>
