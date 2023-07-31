@@ -1,10 +1,9 @@
+
+
 .welcm{
 border-bottom: 1px solid black;
 color: #d8232a;
 margin-top:100px;
-
-
-
 }
 
 .btn-service{
@@ -16,7 +15,6 @@ margin-top: 20px;
 background-color:#d8232a;;
 border-radius: 20px;
 border: 2px solid #d8232a;
-
 }
 .btn-service:hover{
 
@@ -25,8 +23,6 @@ cursor: pointer;
 transition: 1s;
 border-color: black;
 }
-
-
 .main-container{
 
 display: flex;
@@ -60,7 +56,189 @@ text-align: center;
 margin-top: 40px;
 }
 
+
+.div-colo{
+  color: black;
+  background-color: #dc5e62;
+  height: 130px;
+  width:360px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img-card{
+margin-top: 30px;
+    position: absolute;
+    height: 160px;
+    width: 170px;
+    border: 3px solid whitesmoke;
+    border-radius: 100px;
+    top:25px;
+    margin-left: 90px;
+    box-shadow: 0 0 15px 5px whitesmoke;
+    }
+    .img-card:hover{
+    position: absolute;
+    height: 150px;
+    width: 160px;
+    border: 4px solid whitesmoke;
+    border-radius: 20px 0 20px 0;
+    top: 65px;
+    margin-left: 90px;
+    box-shadow: 0 0 15px 5px rgb(237, 190, 206);
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+
 .card1{
+  position: relative;
+  color: black;
+  background-color:whitesmoke;
+  border: 2px solid black;
+  height: 430px;
+  width:360px;
+ 
+  margin-top: 20px;
+  margin-bottom: 100px;
+ 
+  border-radius: 5px;
+  display: inline-block;
+
+}
+
+.card2{
+  position: relative;
+  color: black;
+  background-color:whitesmoke;
+  border: 2px solid black;
+  height: 430px;
+  width:360px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  border-radius: 5px;
+  display: inline-block;
+
+}
+
+.card3{
+  position: relative;
+  color: black;
+  background-color:whitesmoke;
+  border: 2px solid black;
+  height: 430px;
+  width:360px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  border-radius: 5px;
+  display: inline-block;
+
+}
+
+.card4{
+  position: relative;
+  color: black;
+  background-color:whitesmoke;
+  border: 2px solid black;
+  height: 430px;
+  width:360px;
+  
+  margin-bottom: 100px;
+  margin-left: 20px;
+  border-radius: 5px;
+  display: inline-block;
+
+}
+
+.card5{
+  position: relative;
+  color: black;
+  background-color:whitesmoke;
+  border: 2px solid black;
+  height: 430px;
+  width:360px;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  border-radius: 5px;
+  display: inline-block;
+
+}
+
+.card6{
+  position: relative;
+  color: black;
+  background-color:whitesmoke;
+  border: 2px solid black;
+  height: 430px;
+  width:360px;
+ 
+  margin-bottom: 50px;
+  margin-left: 20px;
+  border-radius: 5px;
+  display: inline-block;
+
+}
+
+.main{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 130px;
+/* background-color: #f18d90; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .card1{
 position: absolute;
 color: white;
 height: 510px;
@@ -70,14 +248,14 @@ box-shadow: 0 0 30px 20px;
 border-radius: 2px;
 transform: rotateY(calc(var(--offset) * 50deg));
 
-}
+} */
 
-.img-aaru{
+/* .img-aaru{
 position: absolute;
 height: 200px;
 width: 300px;
 border: 1px solid blanchedalmond;
 border-radius: 100%;
 
-} 
+}  */
 
