@@ -1,0 +1,51 @@
+
+.h-cont
+{
+   display: flex;
+
+}
+
+.main-cont
+{
+    display: flex;
+    padding: 10px;
+    border: 1px solid #7f7f7f70;
+    width: 50%;
+
+}
+.card-imgs-cont
+{
+    height: 138px;
+    width: 274px;
+    padding: 4px;
+}
+
+.card-imgs-main
+{
+    padding: 4px;
+}
+
+.cards-imgs{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.cards-sm-imgs-cont
+{
+    display: flex;
+    padding: 4px;
+}
+
+.sm-img
+{
+    height: 100%;
+}
+
+.sm-img-cont
+{
+    height: 40px;
+    width: 60px;
+    display: block;
+    padding: 4px;
+}
