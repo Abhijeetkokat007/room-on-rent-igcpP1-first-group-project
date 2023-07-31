@@ -1,3 +1,4 @@
+@media screen and (min-width: 993px) and (max-width: 1200px) {
 body{
     margin-left: 90px;
     margin-right: 90px;
@@ -56,6 +57,7 @@ body{
  .Apartment-rent-bro{
      height: 400px;
    margin-top: 100px;
+   margin-left: 20px;
  }
  .apartment-img{
      height: 500px;
@@ -103,3 +105,4 @@ body{
      display: flex;
      justify-content: space-between;
  }
+}
