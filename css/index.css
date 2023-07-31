@@ -95,6 +95,9 @@ nav {
    margin-right: 10px;
    padding-right: 5px;
 }
+.label-text{
+   color: #d8232a             ;
+}
 /*footer*/
 .container-foot1 {
    display: flex;
