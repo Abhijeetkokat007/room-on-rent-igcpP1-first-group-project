@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   margin: 0;
   padding: 0;
@@ -81,6 +82,48 @@ flex-wrap: wrap;
 justify-content: space-around;}
   /*footer*/
   .container-foot1{
+=======
+*{
+   margin: 0%;
+}
+/* -----------header------------ */
+.header-div{
+   display: flex;
+   height: 40px;
+}
+.brand-heading{
+   color: #d8232a;
+   margin-left: 20px;
+   font-family: 'Work Sans', sans-serif;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.btns{
+ margin-left: auto;
+ margin-right: 20px;
+}
+.login-btn{
+   background-color: white;
+   padding: 10px;
+   border: none;
+
+}
+.user{
+   font-size: 15px;
+}
+.user:hover{
+   color: #d8232a;
+}
+ /* -----navbar------------------ */
+ nav{
+   height: 60px;
+   background-color: #d8232a;
+ }
+ 
+ 
+ /*footer*/
+ .container-foot1{
+>>>>>>> ed079e6d7a783123952112897c4b2111d4bf028d
     display: flex;
     flex-direction: row;
     justify-content:space-around;
