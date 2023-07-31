@@ -1,0 +1,133 @@
+
+.h-cont
+{
+   display: flex;
+
+}
+
+.main-cont
+{
+    display: flex;
+    padding: 10px;
+    border: 1px solid #7f7f7f70;
+    width: 50%;
+
+}
+.card-imgs-cont
+{
+    height: 138px;
+    width: 274px;
+    padding: 4px;
+}
+
+.card-imgs-main
+{
+    padding: 4px;
+}
+
+.cards-imgs{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.cards-sm-imgs-cont
+{
+    display: flex;
+    padding: 4px;
+}
+
+.sm-img
+{
+    height: 100%;
+}
+
+.sm-img-cont
+{
+    height: 40px;
+    width: 60px;
+    display: block;
+    padding: 4px;
+}
+
+
+/* cards textx */
+
+.card-tst-cont
+{
+    padding: 4px;
+}
+
+.card-price-cont
+{
+    padding: 6px;
+    border-bottom: 1px solid #7f7f7f70;
+    border-top: 1px solid #7f7f7f70;
+    border-right: 1px solid #7f7f7f70;
+    width: 20%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.price-bx
+{
+    margin-right: 5%;
+    text-align: end;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.rating-txt
+{
+    margin: 0;
+}
+
+.deal-brg
+{
+    border-bottom: 1px solid #f93a3a;
+    border-top: 1px solid #f93a3a;
+    border-left: 1px solid #f93a3a;
+    
+}
+
+.rating-cont
+{
+    margin-bottom: 20px;
+}
+
+.deal-brg
+{
+    padding: 4px;
+    margin-bottom: 20px;
+}
+
+.hed-txt
+{
+    padding: 4px;
+   font-family: 'Bree Serif', serif;
+   font-size: 20px;
+
+}
+
+
+.price-data
+{
+    padding: 4px;
+}
+
+.mx-price
+{
+display: block;
+text-decoration: line-through;
+color: #f93a3a;
+}
+
+.nw-price
+{
+display: block;
+color: #f93a3a;
+font-size: 20px;
+font-family: 'Bree Serif', serif;
+
+}
