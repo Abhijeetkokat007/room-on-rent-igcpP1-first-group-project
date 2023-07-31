@@ -1,0 +1,105 @@
+body{
+    margin-left: 90px;
+    margin-right: 90px;
+    font-family: sans-serif;
+ }
+ /* -------------------Post property Ad to sell----------------- */
+ .heading-1{
+     font-family: sans-serif;
+     margin-top: 130px;
+     color: #d8232a;
+ }
+ .heading{
+     font-family: sans-serif;
+     margin-top: 90px;
+     color: #d8232a;
+ }
+ .check-mark{
+     height: 30px;
+ }
+ .check-text{
+     font-size: 20px;
+ }
+ .service-poster{
+   height: 400px;
+   margin-left: 70px;
+
+ }
+ .div-header{
+     display: flex;
+     justify-content: center;
+ }
+ /* --------------------How it works---------- */
+ .forsale{
+     height: 200px;
+   
+     border-radius: 40px;
+ }
+ .steps-para{
+     margin-top: 40px;
+     font-family: system-ui;
+ }
+ .how-it-work{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 85%;
+     background-color: white;
+
+ }
+ .step-heading{
+     font-size: 20px;
+ }
+ .m-1{
+     margin-left: 50px;
+ }
+ .Apartment-rent-bro{
+     height: 400px;
+   margin-top: 100px;
+ }
+ .apartment-img{
+     height: 500px;
+    margin-right: 90px;
+     width: 300px;
+    
+ }
+.how-it-work-main-div{
+ display: flex;
+ 
+ 
+
+}
+ /* --------------------Tips on Selling a Property Online-------------- */
+ .sealing-icon{
+     height: 40px;
+     border: solid 1.5px black;
+     background-color: #fce188;
+     box-shadow: 1px 2px 5px 1px rgb(155, 154, 154);
+     border-radius: 50%;
+     padding: 15px;
+     margin-top: 10px;
+ }
+ .sealing-online{
+     display: flex;
+     flex-direction: row;
+     justify-content: start;
+     width: 40%;
+    box-shadow: 1px 2px 5px 1px rgb(155, 154, 154);
+    padding: 15px;
+    border-radius: 20px;
+ }
+ .sealing-online:hover{
+     box-shadow: 1px 2px 10px 5px rgb(100, 99, 99);
+ }
+ .tips-para{
+     margin-left: 20px;
+ }
+ .property-div-1{
+     display: flex;
+     justify-content: space-between;
+ }
+ .property-div-2{
+     margin-top: 40px;
+     display: flex;
+     justify-content: space-between;
+ }
