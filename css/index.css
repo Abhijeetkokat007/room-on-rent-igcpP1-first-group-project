@@ -1,7 +1,10 @@
-body {
-   margin: 0;
-   padding: 0;
-}
+
+ .d-flex{display: flex;
+ flex-wrap: wrap;}
+ .inputBox :focus {
+ outline:none;
+ }
+
 
 .d-flex {
    display: flex;
@@ -43,6 +46,32 @@ body {
 
 .img-home {
    height: 400px;
+   background-image: linear-gradient(rgba(66, 1, 1, 0.9), rgba(57, 2, 2, 0.8)), url("./../img/index-page-img/bulding-img.jpg");
+   text-align:center;
+   background-size:100% 100%;
+   background-repeat: no-repeat;
+   padding-top: 150px;
+   opacity: 0.9;  
+ 
+  }
+  .heding1-t{
+   display: inline-block;
+  }
+  .hel-1{color: #fbfcfd;
+ display:inline-block;
+ padding: 10px;
+ border-radius: 10px;
+ font-size: 50px;
+ }
+ .heading-2{
+  text-align: center;
+  margin-bottom: -10px;
+  margin-top: 60px;
+ }
+  
+  
+  /*curated rental collection*/
+  .rent-collection{
    background-image: url("./../img/index-page-img/bulding-img.jpg");
    text-align: center;
    background-size: 100% 100%;
