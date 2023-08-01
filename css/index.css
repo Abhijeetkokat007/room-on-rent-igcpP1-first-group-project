@@ -141,11 +141,6 @@ body {
    color: #d8232a;
 }
 
-*/ body {
-   margin: 0;
-   padding: 0;
-}
-
 .d-flex {
    display: flex;
    flex-wrap: wrap;
