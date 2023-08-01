@@ -8,19 +8,27 @@
          margin: 0%;
       }
 
-      /* -----------header------------ */
+
+      .brand-heading {
+         color: #d8232a;
+         margin-left: 20px;
+        
+         margin-top: auto;
+         margin-bottom: auto;
+      }
+      
+      /* /* -----------header------------  */
       .header-div {
          display: flex;
          height: 40px;
-
       }
 
       .brand-heading {
          color: #d8232a;
          margin-left: 20px;
-         font-family: 'Work Sans', sans-serif;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
          margin-top: auto;
-         margin-bottom: auto;
+         margin-bottom:auto;
       }
 
       .btns {
@@ -38,12 +46,17 @@
       .user {
          font-size: 15px;
          font-weight: bold;
+         box-sizing: border-box;
+         position: relative;
+         background-blend-mode: darken;
+         padding: 20px;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       }
 
       .user:hover {
-         color: #d8232a;
-         font-size: 15px;
-         font-weight: bold;
+         color: crimson;
+         transform: scale(1.1);
+         z-index: 2;
       }
 
       /* -----navbar------------------ */
@@ -164,22 +177,22 @@
          cursor: pointer;
 
       }
-
       .hel-1 {
          color: white;
          font-size: 45px;
          padding-top: 100px;
-
-
       }
-
+      .header-btn{
+         display: flex;
+         justify-content: space-around;
+      }
       .btn-post-property {
          height: 40px;
          width: 200px;
          margin-top: 130px;
          background-color: #fce188;
-     border: solid black 1px;
-         margin-left: 45%;
+         border: solid black 1px;
+         
          border-radius: 50px;
       }
 
@@ -187,12 +200,26 @@
          font-size: 20px;
          font-weight: bold;
       }
+
       .btn-post-property:hover {
          background-color: #d8232a;
          color: white;
          box-shadow: 10px 10px 10px 2px black;
       }
-
+      .update-btn{
+          height: 40px;
+         width: 290px;
+         margin-top: 130px;
+         background-color: #fce188;
+         border: solid black 1px;
+         border-radius: 50px;
+         
+      }
+      .update-btn:hover{
+         background-color: #d8232a;
+         color: white;
+         box-shadow: 10px 10px 10px 2px black;
+      }
       /* -------------------category-container----------------------- */
       .category-container {
          height: 500px;
@@ -208,8 +235,10 @@
          <button class="login-btn"><span class="user"><b>About</b></span></button>
          <button class="login-btn"><span class="user"><b>Services</b></span></button>
          <button class="login-btn"><span class="user"><b>User Login</b></span></button>
-         <button class="login-btn"><span class="user"><b>Owner Login</b></span> </button></span>
-   </div>
+         <button class="login-btn"><span class="user"><b>Owner Login</b></span> </button></span>>
+   </div> 
+
+ 
    <!-- ----------------navbar-------------- -->
    <nav>
       <div class="selects">
@@ -301,7 +330,12 @@
          <input type="text" class="in-1" placeholder="Search your City ">
          <button class="btn-search">Search</button>
       </div>
-      <a href="#"><button class="btn-post-property"><span class="post-text">Post Property</span></button></a>
+      <div class="header-btn">
+         <a href="#"><button class="btn-post-property"><span class="post-text">Post Property</span></button></a>
+         <a href="#"><button class="btn-post-property"><span class="post-text">Post Property</span></button></a>
+      <a href="#"><button class="update-btn"><span class="post-text">Explore Letest Updates</span></button></a>
+      
+   </div>
    </div>
    <div class="category-container"></div>
 </body>
