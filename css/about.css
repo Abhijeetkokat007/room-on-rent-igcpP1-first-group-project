@@ -92,46 +92,37 @@ justify-content: center;
 .img-github{
   position: absolute;
   bottom: 30px;
+  padding: 5px;
   left: 80px;
+  box-shadow: 0 0 5px 1.5px rgb(181, 179, 179);
+  border-radius: 50%;
 
 }
-
-.img-github:hover{
-  position: absolute;
-  bottom: 36px;
-  left: 50px;
-cursor: pointer;
-transition: 1s;
-border-radius: 50%;
-height: 40px;
-/* border: 2px solid whitesmoke; */
-
-}
-
-
-
-
-
-
-
-
-
 .img-insta{
   position: absolute;
   bottom: 30px;
   left: 130px;
+  box-shadow: 0 0 5px 1.5px rgb(181, 179, 179);
+  border-radius: 50%;
+  padding: 5px;
 }
 
 .img-wp{
   position: absolute;
   bottom: 30px;
-  left: 228px;
+  left: 233px;
+  box-shadow: 0 0 5px 1.5px rgb(181, 179, 179);
+  border-radius: 50%;
+  padding: 4px;
 }
 .img-link{
   position: absolute;
   bottom: 31px;
- 
   left: 183px;
+  box-shadow: 0 0 5px 1.5px rgb(181, 179, 179);
+  border-radius: 50%;
+  padding: 6px;
+  margin-right: 10px;
 }
 /* .img-twitter{
   position: absolute;
