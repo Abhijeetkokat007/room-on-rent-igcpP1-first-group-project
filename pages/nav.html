@@ -36,10 +36,13 @@
 
 .user {
    font-size: 15px;
+   font-weight: bold;
 }
 
 .user:hover {
    color: #d8232a;
+   font-size: 15px;
+   font-weight: bold;
 }
 
 /* -----navbar------------------ */
@@ -105,8 +108,73 @@ nav {
    margin-right: 10px;
    padding-right: 5px;
 }
-.label-text{
-   color: #d8232a             ;
+
+
+/* -------------------poster-------------------- */
+.div-poster{
+   background-image: url(/img/poster5.jpg);
+   height: 450px;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   text-align: center;
+
+      
+}
+/* ---search--- */
+.inputBox :focus{
+   outline: none;  
+
+}
+.inputBox{
+  position: absolute;
+  margin-top: 30px;
+ margin-left: 320px;
+
+}
+.in-1{
+   height: 50px;
+   width: 500px;
+   border-radius: 20px 0 0 20px;
+   background-color: white;
+   border: 3px solid #d8232a;
+   padding-left: 20px;
+   font-size: 15px;
+}
+.btn-search{
+   height: 57px;
+   color: white;
+   width: 100px;
+   background-color: #d8232a;
+   border-radius: 0 20px 20px 0;
+   margin-left: -5px;
+   border: 3px solid #d8232a;
+   padding-left: 10px;
+   padding-right: 10px;
+
+}
+.hel-1{
+   color: white;
+  font-size: 45px;
+   padding-top: 100px;
+   
+  
+}
+.btn-post-property{
+   height: 40px;
+width: 200px;
+   margin-top: 150px;
+background-color: #fce188;
+border-radius: 20px;
+padding-bottom: 10px;
+}
+.post-text{
+   font-size: 20px;
+ 
+}
+
+/* -------------------category-container----------------------- */
+.category-container{
+   height: 500px;
 }
     </style>
 </head>
@@ -194,9 +262,17 @@ nav {
       <option>Owner </option>
       <option>Agent </option>
      
-    </select>
-
-    
+    </select> 
   </div>
   </nav>
+  <div class="div-poster">
+   <h1 class="hel-1">Commercial property for Rale & Rent</h1>
+<div class="inputBox">
+   <input type="text" class="in-1" placeholder="Search your City ">
+   <button class="btn-search">Search</button>
+</div>
+<button class="btn-post-property"><span class="post-text">Post Property</span></button>
+  </div>
+  <div class="category-container"></div>
+</body>
 </html>
