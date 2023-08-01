@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        * {
+   margin: 0%;
+}
+
+/* -----------header------------ */
+.header-div {
+   display: flex;
+   height: 40px;
+}
+
+.brand-heading {
+   color: #d8232a;
+   margin-left: 20px;
+   font-family: 'Work Sans', sans-serif;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.btns {
+   margin-left: auto;
+   margin-right: 20px;
+}
+
+.login-btn {
+   background-color: white;
+   padding: 10px;
+   border: none;
+
+}
+
+.user {
+   font-size: 15px;
+}
+
+.user:hover {
+   color: #d8232a;
+}
+
+/* -----navbar------------------ */
+nav {
+   height: 60px;
+   background-color: #d8232a;
+   display: flex;
+   justify-content: center;
+}
+.selects {
+   margin-top: 13px;
+}
+
+.select-budget {
+ 
+   border: none;
+   height: 35px;
+   width: 90px;
+   border: solid 1px #d8232a;
+   border-radius: 30px;
+   font-size: 15px;
+   padding-left: 10px;
+   padding-right: 5px;
+   margin-right: 10px;
+
+}
+
+.property-type {
+   border: none;
+   height: 35px;
+   width: 135px;
+   border: solid 1px #d8232a;
+   border-radius: 30px;
+   font-size: 15px;
+   padding-left: 10px;
+   padding-right: 5px;
+   margin-right: 10px;
+}
+
+.select-posted-by {
+   border: none;
+   height: 35px;
+   width: 115px;
+   border: solid 1px #d8232a;
+   border-radius: 30px;
+   font-size: 15px;
+   padding-left: 10px;
+   padding-right: 5px;
+   margin-right: 10px;
+}
+.select-bhk{
+   border: none;
+   height: 35px;
+   width: 70px;
+   border: solid 1px #d8232a;
+   border-radius: 30px;
+   font-size: 15px;
+   padding-left: 10px;
+   margin-right: 10px;
+   padding-right: 5px;
+}
+.label-text{
+   color: #d8232a             ;
+}
+    </style>
+</head>
+<body>
+     <!-- -----------header div------------------ -->
+  <div class="header-div">
+    <h1 class="brand-heading">RoomOnRent</h1>
+ <span class="btns">
+  <button class="login-btn"><span class="user"><b>About</b></span></button>
+  <button class="login-btn"><span class="user"><b>Services</b></span></button>
+<button class="login-btn"><span class="user"><b>User Login</b></span></button>
+<button class="login-btn"><span class="user"><b>Owner Login</b></span> </button></span>
+  </div>
+  <!-- ----------------navbar-------------- -->
+  <nav>
+    <div class="selects">
+      <select class="select-bhk">
+        <option><span class="option-heading">BHK</option><br>
+        <option>Single Room</option>
+        <option> 1RK</option>
+        <option> 1BHK</option>
+        <option> 2BHK</option>
+        <option> 3BHK</option>
+      </select>
+    <select class="select-budget">
+      <option><span class="option-heading">Budget </option><br>
+      <option> ₹ 2000-5000  </option>
+      <option> ₹ 5000-8000  </option>
+      <option> ₹ 8000-12000 </option>
+      <option> ₹ 12000-15000</option>
+      <option> ₹ 15000-20000</option>
+      <option> ₹ 22000-30000</option>
+    </select>
+
+    <select class="property-type">
+      <optgroup label="Residential">
+          <option>Property Type</option>
+          <option>Flat</option>
+          <option>House</option>
+          <option>Villa</option>
+          <option>Shared Flat</option>
+      </optgroup>
+      <optgroup label="Commercial">
+          <option>Office</option>
+          <option>Shop</option>
+          <option>Showrooms</option>
+          <option>Godown</option>
+          <option>Industrial Building</option>
+      </optgroup>
+      <optgroup label="Others">
+        <option>Agricultural Land</option>
+        <option>Farm House</option>
+    </optgroup>
+  </select>
+    
+
+
+  <select class="property-type">
+    <optgroup label="Tenants  Prefared">
+        <option>Tenants  Prefared</option>
+        <option>Bachelors</option>
+        <option>Family</option>
+        <option>Single</option>
+        <option>Living</option>
+    </optgroup>
+    <optgroup label="Availability">
+        <option>Immediately</option>
+        <option>Within 1 Month</option>
+        <option>1 - 3 Months</option>
+        <option>6 Months +</option>
+       
+    </optgroup>
+    <optgroup label="Furnishing">
+      <option>Furnished</option>
+      <option>Unfurnished</option>
+  </optgroup>
+  <optgroup label="Bathroom">
+    <option>1</option>
+    <option>2</option>
+</optgroup>
+</select>
+
+    <select class="select-posted-by">
+      <option>Posted By</option><br>
+      <option>Owner </option>
+      <option>Agent </option>
+     
+    </select>
+
+    
+  </div>
+  </nav>
+</body>
+</html>
