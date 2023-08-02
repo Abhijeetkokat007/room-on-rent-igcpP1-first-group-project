@@ -45,3 +45,13 @@
     border-color:rgb(183, 176, 176) ;
     margin-left: 40px;
 }
+.image-pay
+{
+    height: 50px;
+}
+.image-pay:hover
+{
+    transform: scale(1.5);
+    transition:1s;
+    size: 500px;
+}
