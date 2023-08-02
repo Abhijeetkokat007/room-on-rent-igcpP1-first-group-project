@@ -16,3 +16,16 @@
     padding-bottom: 10px;
     width: auto;
 }
+.header
+{
+   text-align: start;
+    flex-wrap: wrap;
+    padding: 40px;  
+}
+.div-main-1
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
