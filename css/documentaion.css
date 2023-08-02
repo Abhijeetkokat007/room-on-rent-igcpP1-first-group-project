@@ -131,3 +131,26 @@
     margin-left: 100px;
     /* border: 1px solid black; */
 }
+.file
+{
+    border: none;
+    padding: 6px;
+}
+.btn
+{
+    margin-left: 180px;
+    background-color: #f93a3a;
+    border-radius: 10px;
+    color: white;
+    padding: 4px;
+    border: none;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.btn:hover
+{
+   cursor: pointer;
+   border: 1px solid #f93a3a; 
+   color: #f93a3a;
+   background-color: white;
+}
