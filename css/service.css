@@ -50,6 +50,9 @@ nav {
     padding-right: 10px;
     color: black;
 }
+.home-png{
+    display: none;
+}
  /* -------------------Post property Ad to sell----------------- */
  .heading-1{
      font-family: sans-serif;
@@ -151,3 +154,58 @@ nav {
      display: flex;
      justify-content: space-between;
  }
+
+ /* ---------------------mobile view------------------------ */
+ @media screen and (max-width: 750px) {
+    *{
+        margin: 0%;
+    }
+    .brand-heading-1{
+        color: white;
+     margin-right: auto;
+     margin-left: 20px;
+     font-weight: bold;
+     font-size: 30px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    /* -----navbar------------------ */
+nav {
+    height: 60px;
+    background-color: #d8232a;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+ }
+ .post-btn{
+    display: none;
+ }
+ .div-header{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+}
+.service-poster{
+    height: 300px;
+  align-items: center;
+  margin-right: auto;
+ 
+  }
+  .heading-1{
+    font-family: sans-serif;
+    color: #d8232a;
+}
+.heading{
+    font-family: sans-serif;
+    color: #d8232a;
+}
+.check-mark{
+    height: 20px;
+}
+.check-text{
+    font-size: 16px;
+}
+  }
