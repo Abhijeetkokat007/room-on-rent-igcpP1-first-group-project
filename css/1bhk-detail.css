@@ -1,5 +1,21 @@
 
-    
+.images-sub-div{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}   
+.image-cont{
+    height: 250px;
+    width:400px ;
+    padding: 20px;
+    margin-right: -5px;
+} 
+
+.img-sub-cont
+{
+    height: 250px;
+    width:400px ;
+}
 .main-div{
     width: 60%;
     display: flex;
@@ -75,8 +91,13 @@
     padding-top: 5px; 
 }
 .lift-icon{
-    margin:25px;
+   
+    display: flex;
+    align-items: center;
 
+}
+.icon-cont{
+    margin-right: 20px;
 }
 .lifticon{
     height: 35px;
