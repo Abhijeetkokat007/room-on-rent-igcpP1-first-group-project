@@ -3,6 +3,7 @@
 
 <head>
    <title>Document</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <style>
       * {
          margin: 0%;
@@ -17,7 +18,7 @@
          margin-bottom: auto;
       }
 
-      /* /* -----------header------------  */
+      /* -----------header------------  */
       .header-div {
          display: flex;
          height: 40px;
@@ -239,9 +240,96 @@
       .category-container {
          height: 500px;
       }
+
       /* --------------------media query mobile device---------------- */
       @media screen and (max-width: 768px) {
+         .brand-heading {
+            color: #d8232a;
+            margin-left: 20px;
+         }
+         .btns{
+            display: none;
+         }
+nav{
+   display: none;
 }
+.div-poster {
+         background-image: url(/img/poster5.jpg);
+         height: 450px;
+         background-size: 100% 100%;
+         background-repeat: no-repeat;
+         text-align: center;
+
+      }
+      
+      /* ---search--- */
+      .inputBox :focus {
+         outline: none;
+
+      }
+
+      .inputBox {
+        width: 400px;
+         display: flex;
+         justify-content: center;
+         margin-left: 25%;
+      
+      }
+
+      .in-1 {
+      height: 30px;
+         border-radius: 30px 0 0 30px;
+         background-color: white;
+         border: 2px solid #d8232a;      
+         font-size: 12px;
+      }
+
+      .btn-search {
+         height: 36px;
+         font-size: 12px;
+         color: white;
+        
+         background-color: #d8232a;
+         border-radius: 0 30px 30px 0;
+     
+         border: 2px solid #d8232a;
+         padding-left: 10px;
+         padding-right: 10px;
+         cursor: pointer;
+
+      }
+
+      .hel-1 {
+         color: white;
+         font-size: 25px;
+         
+      }
+
+      .header-btn {
+         display: flex;
+         flex-direction: column;
+         margin-top: 15%;
+       
+      }
+
+      .post-text {
+         font-size: 15px;
+         font-weight: bold;
+      }
+      .update-btn {
+         height: 40px;
+         width: 200px;
+         border-radius: 50px;
+         background-color: #d8232a;
+         color: white;
+         margin-top: 15px;
+         box-shadow: 10px 10px 10px 2px black;
+         border-radius: 50px;
+     
+      }
+
+    
+      }
    </style>
 </head>
 
@@ -352,10 +440,13 @@
             Search</button>
 
       </div>
-      <div class="header-btn">
-         <a href="#"><button class="btn-post-property"><span class="post-text">Post Property</span></button></a>
-         <a href="#"><button class="update-btn"><span class="post-text">Call for Maintanance</span></button></a>
-         <a href="#"><button class="update-btn"><span class="post-text">Explore Letest Updates</span></button></a>
+      <div>
+         <div class="header-btn">
+            <a href="#"><button class="update-btn"><span class="post-text">Post Property</span></button></a>
+            <a href="#"><button class="update-btn"><span class="post-text">Call for Maintanance</span></button></a>
+            <a href="#"><button class="update-btn"><span class="post-text">Explore Letest Updates</span></button></a>
+
+         </div>
 
       </div>
    </div>
