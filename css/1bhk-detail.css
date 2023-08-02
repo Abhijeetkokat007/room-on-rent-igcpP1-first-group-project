@@ -65,10 +65,9 @@
     width: 60%;
     display: flex;
     flex-direction: row;
-   
-    margin-top: 20px;
     border: 1px solid #d8232a;
     border-radius: 10px;
+    margin-top: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -84,10 +83,12 @@
 }
 .lifticon{
     height: 35px;
-    margin-bottom: -10px;   
+    margin-bottom: -10px;   padding: 7px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #fce188;
+    align-items: center; 
 }
-
-
 .amenities-name{
     font-size: 20px;
     margin-top: -5px;  
@@ -97,5 +98,53 @@
     justify-content: space-between;
     margin: 25px;  
     margin-left: 10px;
+}
+.locality-main-div{ 
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex; 
+    justify-content: center;
+
+}
+.locality-row-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;  
+    margin-left: 10px;
+}
+.education-institute{
+    height: 90px;
+    width: 300px;
+    box-shadow: 1px 2px 5px 1px rgb(155, 154, 154);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    
+}
+.education-icon{
+    height: 30px;
+    left: 130px;
+    margin-left: 70px;
+    top: 5px;   
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #fce188;
+}
+
+.locality-sub-div
+{
+    border: 1px solid #d8232a;
+    border-radius: 10px;
+    width: 60%;  
+}
+.dts-cont
+{
+    width: 100%;
+}
+.locality-heading{
+    margin-left: 30px;
 }
 
