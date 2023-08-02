@@ -7,7 +7,7 @@
 {
     display: flex;
     padding: 10px;
-    border: 1px solid #7f7f7f70;
+    border: 1px solid #f93a3a;
     width: 50%;
 
 }
@@ -48,6 +48,20 @@
     padding: 4px;
 }
 
+.sic-cont
+{
+    background-image: url(https://r1imghtlak.mmtcdn.com/663f0f0a300811e9af7a0242ac110002.jpg?&output-quality=75&downsize=583:388&output-format=jpg);
+    width: auto;
+    height: auto;
+    background-position: center;
+}
+.sic-cont-txt
+{
+    text-decoration: none;
+    color: #f93a3a;
+    text-align: center;
+}
+
 
 /* cards textx */
 
@@ -59,9 +73,9 @@
 .card-price-cont
 {
     padding: 6px;
-    border-bottom: 1px solid #7f7f7f70;
-    border-top: 1px solid #7f7f7f70;
-    border-right: 1px solid #7f7f7f70;
+    border-bottom: 1px solid #f93a3a;
+    border-top: 1px solid #f93a3a;
+    border-right: 1px solid #f93a3a;
     width: 20%;
     display: flex;
     justify-content: end;
@@ -91,7 +105,7 @@
 
 .rating-cont
 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .deal-brg
@@ -129,3 +143,24 @@ font-size: 20px;
 font-family: 'Bree Serif', serif;
 
 }
+
+.subtn
+{
+    margin-left: 8px;
+    padding: 4px;
+    width: auto;
+}
+
+.btn-txt
+{
+    padding: 4px;
+    background-color: #f93a3a;
+    color: white;
+    border: none;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
