@@ -75,3 +75,18 @@
 .start{
     /* margin-left: 150px; */
 }
+.image-1
+{
+    height: 290px;
+    margin-top: 60px; 
+    margin-left: -50px;
+}
+.image-2
+{ height: 245px;
+    margin-top: 60px; 
+}
+.image-3{
+    height: 380px;
+    margin-top:-1px;
+    margin-left:-100px ;
+}
