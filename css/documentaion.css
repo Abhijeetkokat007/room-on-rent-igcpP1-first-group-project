@@ -90,3 +90,21 @@
     margin-top:-1px;
     margin-left:-100px ;
 }
+.div-main-2
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.div2-1{
+   
+    /* border: 1px solid blueviolet; */
+}
+.div2-2
+{
+    height: 390px;
+    width: 350px;
+    /* border: 1px solid blueviolet; */
+    margin-left: 100px;
+}
