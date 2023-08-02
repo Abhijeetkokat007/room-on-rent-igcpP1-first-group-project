@@ -65,3 +65,13 @@
 {
     width: 100px;
 }
+.heading-color
+{
+    color: #f93a3a;
+}
+.center{
+    text-align: center;
+}
+.start{
+    /* margin-left: 150px; */
+}
