@@ -1,0 +1,164 @@
+.div-con-0
+{
+    height: 100px;
+    width: 220px;
+}
+.a{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+    /* width: 100px; */
+}
+.all-main-div
+{
+    border: 1px solid rgb(191, 185, 185);
+    padding-bottom: 10px;
+    width: auto;
+}
+.header
+{
+   text-align: start;
+    flex-wrap: wrap;
+    padding: 40px;  
+}
+.div-main-1
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.input-type
+{
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(183, 176, 176);  
+    width: 240px;  
+}
+.input-type:focus
+{
+    outline: none;
+}
+#state{
+    width: 100px;
+    border-color:rgb(183, 176, 176) ;
+    margin-left: 40px;
+}
+.image-pay
+{
+    height: 50px;
+}
+.image-pay:hover
+{
+    transform: scale(1.5);
+    transition:1s;
+    size: 500px;
+}
+.div1-1
+{
+    height: 390px;
+    width: 350px;
+}
+
+.zip-code
+{
+    width: 100px;
+}
+.heading-color
+{
+    color: #f93a3a;
+}
+.center{
+    text-align: center;
+}
+.start{
+    /* margin-left: 150px; */
+}
+.image-1
+{
+    height: 290px;
+    margin-top: 60px; 
+    margin-left: -50px;
+}
+.image-2
+{ height: 245px;
+    margin-top: 60px; 
+}
+.image-3{
+    height: 380px;
+    margin-top:-1px;
+    margin-left:-100px ;
+}
+.div-main-2
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.div2-1{
+   
+    /* border: 1px solid blueviolet; */
+}
+.div2-2
+{
+    height: 390px;
+    width: 350px;
+    /* border: 1px solid blueviolet; */
+    margin-left: 100px;
+}
+.div-main-3
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.div-main3-1
+{
+    /* display: flex; */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    /* padding: 40px; */
+}
+.div-3
+{
+    height: 390px;
+    width: 350px;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 100px;
+    /* border: 1px solid black; */
+}
+.file
+{
+    border: none;
+    padding: 6px;
+}
+.btn
+{
+    margin-left: 180px;
+    background-color: #f93a3a;
+    border-radius: 10px;
+    color: white;
+    padding: 4px;
+    border: none;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.btn:hover
+{
+   cursor: pointer;
+   border: 1px solid #f93a3a; 
+   color: #f93a3a;
+   background-color: white;
+}
+.div-4
+{
+    height: 390px;
+    width: 350px;
+    padding: 10px;
+    margin: 20px;
+    /* border: 1px solid black; */
+}
