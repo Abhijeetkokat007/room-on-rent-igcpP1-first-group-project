@@ -40,3 +40,8 @@
 {
     outline: none;
 }
+#state{
+    width: 100px;
+    border-color:rgb(183, 176, 176) ;
+    margin-left: 40px;
+}
