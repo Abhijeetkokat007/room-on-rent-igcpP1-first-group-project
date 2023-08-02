@@ -106,7 +106,9 @@ body {
 }
 
 .rent-collection:hover {
-   background-size: 105%;
+ 
+ transition: 1s;
+ background-size: 105%;
 }
 
 .bg-1 {
@@ -131,7 +133,50 @@ body {
   .ml-30{ margin-left: 40px;}
   .ta-center{display: flex;
  flex-wrap: wrap;
- justify-content: space-around;}
+ justify-content: space-around;} 
+
+   /* apartmentb villa and more */
+   .div-apar{
+      height: 420px;
+      width:300px ;
+      border-radius: 10px;
+      background-color: antiquewhite;
+      border: 1px solid black;
+      background-image: url("./../img/index-page-img/apartment.webp");
+      background-size:100% 100%;
+      margin: 20px;
+     display: inline-block;
+  }
+  .div-apar:hover{background-size:103% 103%;}
+  .apar-anchor{
+      text-decoration: none;
+      font-size: 34px;
+      color: rgb(67, 66, 110); 
+  }
+  .apar-anchor:hover{color: #d8232a;}
+  .apar-span{
+      margin: 40px;
+      text-align: center;
+  }
+  .bg-vill{background-image: url("./../img/index-page-img/villa.webp");
+   background-color:  #ccffcc;}
+  .bg-builder{background-image: url("./../img/index-page-img/builderfloor.webp ");
+   background-color: #cce6ff;}
+  .bg-studio{background-image: url("./../img/index-page-img/studioapartment.webp "); 
+  background-color:  #fff5cc;}
+  .bg-farmhouse{background-image: url("./../img/index-page-img/farmhouse.webp ");
+  background-color:  #d6d6f5;}
+  .bg-service{background-image: url("./../img/index-page-img/serviceapartment.webp");
+  background-color: #ebccff;}
+
+  div.scroll-container {
+background-color: #fefcfc;
+overflow: auto;
+white-space: nowrap;
+padding: 10px;
+margin-left: 60px;
+margin-right: 60px; 
+}
    
  /* home by furnished */
  .furnished-img{
@@ -144,9 +189,7 @@ body {
       margin-right: auto;  
       margin: 20px;
       margin-top: 40px;
-      border-radius: 5px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````    
-      
-  }
+      border-radius:5px;   }                                                                   
   .firni-anchor{
       text-decoration: none;
       font-size: 20px;
@@ -183,6 +226,9 @@ body {
  .heading-3{
    text-align: center;
  }
+  
+
+ /* our coustmars loves us */
 
 
 
@@ -212,7 +258,8 @@ body {
     }
     .foot-tex{
      margin-left: 35%;
-     margin-right: 50%;
+     margin-right: 35%;
+ 
     }
     .tex-red{color:#d8232a ;}
  
