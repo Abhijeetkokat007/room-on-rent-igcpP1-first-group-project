@@ -1,0 +1,101 @@
+
+    
+.main-div{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    border: 1px solid #d8232a;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading{
+    font-size: 20px;  
+}
+.sub-div1{
+    height:auto;
+    padding: 30px;
+    padding-top: 5px;  
+}
+/* .sub-div-2{
+    height: 300px;
+    padding: 30px;
+    
+} */
+.key-text{
+    width: 200px;
+}
+.key-text-value
+{
+
+}
+.key{
+    font-size: 18px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.value{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.pay-link{
+    color:#d70037;
+}
+.report-Owner{
+    position: relative;
+    top: 8px;
+}
+.contact-owner-btn{
+    background-color: #d8232a;
+    color: white;
+    border: none;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+.contact-btn{
+    color: white;
+    text-decoration:none ;
+}
+.amenities-main-class{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+   
+    margin-top: 20px;
+    border: 1px solid #d8232a;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.amenities-sub-class{
+    height:auto;
+    padding: 30px;
+    padding-top: 5px; 
+}
+.lift-icon{
+    margin:25px;
+
+}
+.lifticon{
+    height: 35px;
+    margin-bottom: -10px;   
+}
+
+
+.amenities-name{
+    font-size: 20px;
+    margin-top: -5px;  
+}
+.amenities-row-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;  
+    margin-left: 10px;
+}
+
