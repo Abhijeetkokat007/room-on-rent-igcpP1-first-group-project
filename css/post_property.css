@@ -6,7 +6,7 @@ body{
 
 .main-div {
 
-    margin-bottom: 200px;
+    
     padding-bottom: 200px;
     display: flex;
     flex-direction: row; 
@@ -21,11 +21,10 @@ body{
 */
 .for-sale-house{
     height: 500px;
-    position: fixed;
     filter: drop-shadow(0 0 .45rem rgb(134, 134, 241) );
+    position: fixed;
     /* filter: drop-shadow(0 0 .45rem  #ec8487); */
 }
-  
 
  .form-div{
     width: 600px;
