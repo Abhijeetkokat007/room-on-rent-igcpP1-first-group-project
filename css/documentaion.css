@@ -108,3 +108,26 @@
     /* border: 1px solid blueviolet; */
     margin-left: 100px;
 }
+.div-main-3
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.div-main3-1
+{
+    /* display: flex; */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    /* padding: 40px; */
+}
+.div-3
+{
+    height: 390px;
+    width: 350px;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 100px;
+    /* border: 1px solid black; */
+}
