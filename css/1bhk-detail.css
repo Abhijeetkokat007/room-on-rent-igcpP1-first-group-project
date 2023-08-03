@@ -1,5 +1,27 @@
 
+.images-sub-div{
+    display: flex;  
+}   
+.image-cont{
+    height: 250px;
+    width:400px ;
+    padding: 20px;
     
+} 
+
+.img-sub-cont
+{
+    height: 250px;
+    width:400px ;
+}
+.scroll-cont{
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 50;
+}
 .main-div{
     width: 60%;
     display: flex;
@@ -13,6 +35,7 @@
 }
 .heading{
     font-size: 20px;  
+    color: #d70037;
 }
 .sub-div1{
     height:auto;
@@ -27,10 +50,7 @@
 .key-text{
     width: 200px;
 }
-.key-text-value
-{
 
-}
 .key{
     font-size: 18px;
     margin-bottom: 15px;
@@ -65,13 +85,15 @@
     width: 60%;
     display: flex;
     flex-direction: row;
-   
-    margin-top: 20px;
     border: 1px solid #d8232a;
     border-radius: 10px;
+    margin-top: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.amenities-heading{
+    color: #d70037;
 }
 .amenities-sub-class{
     height:auto;
@@ -79,15 +101,22 @@
     padding-top: 5px; 
 }
 .lift-icon{
-    margin:25px;
+   
+    display: flex;
+    align-items: center;
 
+}
+.icon-cont{
+    margin-right: 20px;
 }
 .lifticon{
     height: 35px;
-    margin-bottom: -10px;   
+    margin-bottom: -10px;   padding: 7px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #fce188;
+    align-items: center; 
 }
-
-
 .amenities-name{
     font-size: 20px;
     margin-top: -5px;  
@@ -98,4 +127,93 @@
     margin: 25px;  
     margin-left: 10px;
 }
+.locality-main-div{ 
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex; 
+    justify-content: center;
 
+}
+.locality-row-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;  
+    margin-left: 10px;
+}
+.education-institute{
+    height: 90px;
+    width: 300px;
+    box-shadow: 1px 2px 5px 1px rgb(155, 154, 154);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    
+}
+.education-icon{
+    height: 30px;
+    left: 130px;
+    margin-left: 70px;
+    top: 5px;   
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #fce188;
+}
+
+.locality-sub-div
+{
+    border: 1px solid #d8232a;
+    border-radius: 10px;
+    width: 60%;  
+}
+.dts-cont
+{
+    width: 100%;
+}
+.locality-heading{
+    margin-left: 30px;
+}
+.working-process-main-cont{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.working-process-sub-cont{
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+    margin: 25px;
+    border: 1px solid #d70037;
+    width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.process-1{
+    width: 200px;
+    height: 290px;
+    box-shadow: 1px 2px 5px 1px rgb(155, 154, 154);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.process-img{
+   height: 150px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.steps-process{
+    font-size: 25px;
+    text-align: center;
+}
+.process-info{
+    text-align: justify;
+    font-size: 15px;
+}
+.heading{
+    margin-left: 150px;
+    font-size: 40px;
+}

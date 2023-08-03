@@ -1,202 +1,444 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Document</title>
-    <style>
-        * {
-   margin: 0%;
-}
+   <title>Document</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+      * {
+         margin: 0%;
+      }
 
-/* -----------header------------ */
-.header-div {
-   display: flex;
-   height: 40px;
-   
-}
 
-.brand-heading {
-   color: #d8232a;
-   margin-left: 20px;
-   font-family: 'Work Sans', sans-serif;
-   margin-top: auto;
-   margin-bottom: auto;
-}
+      .brand-heading {
+         color: #d8232a;
+         margin-left: 20px;
 
-.btns {
-   margin-left: auto;
-   margin-right: 20px;
-}
+         margin-top: auto;
+         margin-bottom: auto;
+      }
 
-.login-btn {
-   background-color: white;
-   padding: 10px;
-   border: none;
+      /* -----------header------------  */
+      .header-div {
+         display: flex;
+         height: 40px;
+      }
 
-}
+      .brand-heading {
+         color: #d8232a;
+         margin-left: 20px;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         margin-top: auto;
+         margin-bottom: auto;
+      }
 
-.user {
-   font-size: 15px;
-}
+      .btns {
+         margin-left: auto;
+         margin-right: 20px;
+      }
 
-.user:hover {
-   color: #d8232a;
-}
+      .login-btn {
+         background-color: white;
+         padding: 10px;
+         border: none;
 
-/* -----navbar------------------ */
-nav {
-   height: 60px;
-   background-color: #d8232a;
-   display: flex;
-   justify-content: center;
-   position: sticky;
-   top: 0;
-   width: 100%;
-}
-.selects {
-   margin-top: 13px;
-   background: none;
-}
+      }
 
-.select-budget {
- 
-   border: none;
-   height: 35px;
-   width: 90px;
-   border: solid 1px #d8232a;
-   border-radius: 30px;
-   font-size: 15px;
-   padding-left: 10px;
-   padding-right: 5px;
-   margin-right: 10px;
+      .user {
+         font-size: 15px;
+         font-weight: bold;
+         box-sizing: border-box;
+         position: relative;
+         background-blend-mode: darken;
+         cursor: pointer;
+         padding: 20px;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
 
-}
+      .user:hover {
+         color: crimson;
+         transform: scale(1.1);
+         z-index: 2;
+      }
 
-.property-type {
-   border: none;
-   height: 35px;
-   width: 135px;
-   border: solid 1px #d8232a;
-   border-radius: 30px;
-   font-size: 15px;
-   padding-left: 10px;
-   padding-right: 5px;
-   margin-right: 10px;
-}
+      /* -----navbar------------------ */
+      nav {
+         height: 60px;
+         background-color: #d8232a;
+         display: flex;
+         justify-content: center;
+         position: sticky;
+         top: 0;
+         width: 100%;
+      }
 
-.select-posted-by {
-   border: none;
-   height: 35px;
-   width: 115px;
-   border: solid 1px #d8232a;
-   border-radius: 30px;
-   font-size: 15px;
-   padding-left: 10px;
-   padding-right: 5px;
-   margin-right: 10px;
-}
-.select-bhk{
-   border: none;
-   height: 35px;
-   width: 70px;
-   border: solid 1px #d8232a;
-   border-radius: 30px;
-   font-size: 15px;
-   padding-left: 10px;
-   margin-right: 10px;
-   padding-right: 5px;
-}
-.label-text{
-   color: #d8232a             ;
-}
-    </style>
+      .selects {
+         margin-top: 13px;
+         background: none;
+      }
+
+      .select-budget {
+         cursor: pointer;
+         border: none;
+         height: 35px;
+         width: 90px;
+         border: solid 1px #d8232a;
+         border-radius: 30px;
+         font-size: 15px;
+         padding-left: 10px;
+         padding-right: 5px;
+         margin-right: 10px;
+
+      }
+
+      .property-type {
+         cursor: pointer;
+         border: none;
+         height: 35px;
+         width: 135px;
+         border: solid 1px #d8232a;
+         border-radius: 30px;
+         font-size: 15px;
+         padding-left: 10px;
+         padding-right: 5px;
+         margin-right: 10px;
+      }
+
+      .select-posted-by {
+         cursor: pointer;
+         border: none;
+         height: 35px;
+         width: 115px;
+         border: solid 1px #d8232a;
+         border-radius: 30px;
+         font-size: 15px;
+         padding-left: 10px;
+         padding-right: 5px;
+         margin-right: 10px;
+      }
+
+      .select-bhk {
+         cursor: pointer;
+         border: none;
+         height: 35px;
+         width: 70px;
+         border: solid 1px #d8232a;
+         border-radius: 30px;
+         font-size: 15px;
+         padding-left: 10px;
+         margin-right: 10px;
+         padding-right: 5px;
+      }
+
+
+      /* -------------------poster-------------------- */
+      .div-poster {
+         background-image: url(/img/poster5.jpg);
+         height: 450px;
+         background-size: 100% 100%;
+         background-repeat: no-repeat;
+         text-align: center;
+
+
+      }
+
+      /* ---search--- */
+      .inputBox :focus {
+         outline: none;
+
+      }
+
+      .inputBox {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 50px;
+      }
+
+      .in-1 {
+         height: 50px;
+         width: 500px;
+         border-radius: 30px 0 0 30px;
+         background-color: white;
+         border: 3px solid #d8232a;
+         padding-left: 20px;
+         font-size: 15px;
+      }
+
+      .btn-search {
+         height: 57px;
+         font-size: 17px;
+         color: white;
+         width: 100px;
+         background-color: #d8232a;
+         border-radius: 0 30px 30px 0;
+         margin-left: -5px;
+         border: 3px solid #d8232a;
+         padding-left: 10px;
+         padding-right: 10px;
+         cursor: pointer;
+
+      }
+
+      .hel-1 {
+         color: white;
+         font-size: 45px;
+         padding-top: 100px;
+      }
+
+      .header-btn {
+         display: flex;
+         justify-content: center;
+
+
+      }
+
+      .post-text {
+         font-size: 20px;
+
+      }
+
+
+      .update-btn {
+         height: 45px;
+         width: 250px;
+         margin-top: 80px;
+         border-radius: 50px;
+         background-color: #d8232a;
+         color: white;
+
+         border-radius: 50px;
+         margin-left: 30px;
+
+      }
+
+      .update-btn:hover {
+         color: #d8232a;
+         background-color: white;
+         border: 2px solid #d8232a;
+         box-shadow: 10px 10px 10px 2px black;
+      }
+
+      /* -------------------category-container----------------------- */
+      .category-container {
+         height: 500px;
+      }
+
+      /* --------------------media query mobile device---------------- */
+      @media screen and (max-width: 750px) {
+         .brand-heading {
+            color: #d8232a;
+            margin-left: 4%;
+         }
+
+         .btns {
+            display: none;
+         }
+
+         nav {
+            display: none;
+         }
+
+         .div-poster {
+            background-image: url(/img/poster5.jpg);
+            height: 450px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            text-align: center;
+
+         }
+
+         /* ---search--- */
+         .inputBox :focus {
+            outline: none;
+
+         }
+
+         .inputBox {
+            width: 350px;
+            margin-top: 0;
+         }
+
+         .in-1 {
+            height: 30px;
+            border-radius: 30px 0 0 30px;
+            background-color: white;
+            border: 2px solid #d8232a;
+            font-size: 12px;
+            width: 200px;
+         }
+
+         .btn-search {
+            height: 36px;
+            font-size: 12px;
+            color: white;
+
+            background-color: #d8232a;
+            border-radius: 0 30px 30px 0;
+
+            border: 2px solid #d8232a;
+            padding-left: 8px;
+            padding-right: 8px;
+            cursor: pointer;
+
+         }
+
+         .hel-1 {
+            color: white;
+            font-size: 30px;
+            margin-top: 0%;
+            position: relative;
+            top: -50px;
+
+         }
+
+         .header-btn {
+            display: flex;
+            flex-direction: column;
+            margin-top: 5%;
+
+         }
+
+         .post-text {
+            font-size: 15px;
+            font-weight: bold;
+         }
+
+         .update-btn {
+            height: 40px;
+            width: 200px;
+            border-radius: 50px;
+            background-color: #d8232a;
+            color: white;
+            margin-top: 15px;
+            box-shadow: 10px 10px 10px 2px black;
+            border-radius: 50px;
+
+         }
+
+
+      }
+   </style>
 </head>
+
 <body>
-     <!-- -----------header div------------------ -->
-  <div class="header-div">
-    <h1 class="brand-heading">RoomOnRent</h1>
- <span class="btns">
-  <button class="login-btn"><span class="user"><b>About</b></span></button>
-  <button class="login-btn"><span class="user"><b>Services</b></span></button>
-<button class="login-btn"><span class="user"><b>User Login</b></span></button>
-<button class="login-btn"><span class="user"><b>Owner Login</b></span> </button></span>
-  </div>
-  <!-- ----------------navbar-------------- -->
-  <nav>
-    <div class="selects">
-      <select class="select-bhk">
-        <option><span class="option-heading">BHK</option><br>
-        <option>Single Room</option>
-        <option> 1RK</option>
-        <option> 1BHK</option>
-        <option> 2BHK</option>
-        <option> 3BHK</option>
-      </select>
-    <select class="select-budget">
-      <option><span class="option-heading">Budget </option><br>
-      <option> ₹ 2000-5000  </option>
-      <option> ₹ 5000-8000  </option>
-      <option> ₹ 8000-12000 </option>
-      <option> ₹ 12000-15000</option>
-      <option> ₹ 15000-20000</option>
-      <option> ₹ 22000-30000</option>
-    </select>
-
-    <select class="property-type">
-      <optgroup label="Residential">
-          <option>Property Type</option>
-          <option>Flat</option>
-          <option>House</option>
-          <option>Villa</option>
-          <option>Shared Flat</option>
-      </optgroup>
-      <optgroup label="Commercial">
-          <option>Office</option>
-          <option>Shop</option>
-          <option>Showrooms</option>
-          <option>Godown</option>
-          <option>Industrial Building</option>
-      </optgroup>
-      <optgroup label="Others">
-        <option>Agricultural Land</option>
-        <option>Farm House</option>
-    </optgroup>
-  </select>
-    
+   <!-- -----------header div------------------ -->
+   <div class="header-div">
+      <h1 class="brand-heading">RoomOnRent</h1>
+      <span class="btns">
+         <button class="login-btn"><span class="user"><b>About</b></span></button>
+         <button class="login-btn"><span class="user"><b>Services</b></span></button>
+         <button class="login-btn"><span class="user"><b>User Login</b></span></button>
+         <button class="login-btn"><span class="user"><b>Owner Login</b></span> </button></span>
+   </div>
 
 
-  <select class="property-type">
-    <optgroup label="Tenants  Prefared">
-        <option>Tenants  Prefared</option>
-        <option>Bachelors</option>
-        <option>Family</option>
-        <option>Single</option>
-        <option>Living</option>
-    </optgroup>
-    <optgroup label="Availability">
-        <option>Immediately</option>
-        <option>Within 1 Month</option>
-        <option>1 - 3 Months</option>
-        <option>6 Months +</option>
-       
-    </optgroup>
-    <optgroup label="Furnishing">
-      <option>Furnished</option>
-      <option>Unfurnished</option>
-  </optgroup>
-  <optgroup label="Bathroom">
-    <option>1</option>
-    <option>2</option>
-</optgroup>
-</select>
+   <!-- ----------------navbar-------------- -->
+   <nav>
+      <div class="selects">
+         <select class="select-bhk">
+            <option><span class="option-heading">BHK</option><br>
+            <option>Single Room</option>
+            <a href="#">
+               <option> 1RK</option>
+            </a>
+            <a href="#">
+               <option> 1BHK</option>
+            </a>
+            <a href="#">
+               <option> 2BHK</option>
+            </a>
+            <a href="">
+               <option> 3BHK</option>
+            </a>
+         </select>
+         <select class="select-budget">
+            <option><span class="option-heading">Budget </option><br>
+            <option> ₹ 2000-5000 </option>
+            <option> ₹ 5000-8000 </option>
+            <option> ₹ 8000-12000 </option>
+            <option> ₹ 12000-15000</option>
+            <option> ₹ 15000-20000</option>
+            <option> ₹ 22000-30000</option>
+         </select>
 
-    <select class="select-posted-by">
-      <option>Posted By</option><br>
-      <option>Owner </option>
-      <option>Agent </option>
-     
-    </select>
+         <select class="property-type">
+            <optgroup label="Residential">
+               <option>Property Type</option>
+               <option>Flat</option>
+               <option>House</option>
+               <option>Villa</option>
+               <option>Shared Flat</option>
+            </optgroup>
+            <optgroup label="Commercial">
+               <option>Office</option>
+               <option>Shop</option>
+               <option>Showrooms</option>
+               <option>Godown</option>
+               <option>Industrial Building</option>
+            </optgroup>
+            <optgroup label="Others">
+               <option>Agricultural Land</option>
+               <option>Farm House</option>
+            </optgroup>
+         </select>
 
-    
-  </div>
-  </nav>
+
+
+         <select class="property-type">
+            <optgroup label="Tenants Prefared">
+               <option>Tenants Prefared</option>
+               <option>Bachelors</option>
+               <option>Family</option>
+               <option>Single</option>
+               <option>Living</option>
+            </optgroup>
+            <optgroup label="Availability">
+               <option>Immediately</option>
+               <option>Within 1 Month</option>
+               <option>1 - 3 Months</option>
+               <option>6 Months +</option>
+
+            </optgroup>
+            <optgroup label="Furnishing">
+               <option>Furnished</option>
+               <option>Unfurnished</option>
+            </optgroup>
+            <optgroup label="Bathroom">
+               <option>1</option>
+               <option>2</option>
+            </optgroup>
+         </select>
+
+         <select class="select-posted-by">
+            <option>Posted By</option><br>
+            <option>Owner </option>
+            <option>Agent </option>
+
+         </select>
+      </div>
+   </nav>
+   <div class="div-poster">
+      <h1 class="hel-1">Commercial property for Rale & Rent</h1>
+      <div class="inputBox">
+         <input type="text" class="in-1" placeholder="Search your City ">
+         <button class="btn-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            Search
+         </button>
+
+      </div>
+      <div>
+         <div class="header-btn">
+            <a href="#"><button class="update-btn"><span class="post-text">Post Property</span></button></a>
+            <a href="#"><button class="update-btn"><span class="post-text">Call for Maintanance</span></button></a>
+            <a href="#"><button class="update-btn"><span class="post-text">Explore Letest Updates</span></button></a>
+
+         </div>
+
+      </div>
+   </div>
+   <div class="category-container"></div>
+</body>
+
 </html>
