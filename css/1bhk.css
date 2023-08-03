@@ -1,17 +1,17 @@
 .h-cont {
     display: flex;
-    margin-bottom   : 30px;
+    margin-bottom: 30px;
     width: 70%;
     position: relative;
     left: 30%;
 
 }
 
-.side-br-cont-main
-{
+.side-br-cont-main {
     position: fixed;
     height: 100vh;
 }
+
 .vm-cont {
     justify-content: space-around;
     display: flex;
@@ -140,7 +140,7 @@
 }
 
 .nw-price {
-    
+
     display: block;
     color: #f93a3a;
     font-size: 20px;
@@ -148,8 +148,7 @@
 
 }
 
-.rup-sys
-{
+.rup-sys {
     color: #060606;
 }
 
@@ -179,8 +178,7 @@
 
 /* --------side bar-------------- */
 
-.side-br-cont-main
-{
+.side-br-cont-main {
     width: 27%;
     height: 100vh;
 }
@@ -242,8 +240,76 @@
 
 }
 
-.fr-cnc
-{
+.fr-cnc {
     color: green;
     font-weight: bold;
+}
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+    .gfg-div {
+        background-color: #63c971;
+        color: #fff;
+    }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1350px) {
+    .h-cont {
+        flex-direction: column;
+        
+    }
+
+    .main-cont{
+        flex-direction: column;
+        border-radius: 2px 2px 2px 2px ;
+        box-shadow: 0px 0 2px 1px rgb(155, 154, 154);
+    }
+
+    .card-imgs-main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-tst-cont{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-price-cont{
+        width: 71%;
+        background-color: #fff;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border-radius: 2px 2px 2px 2px ;
+        box-shadow: 0px 0 2px 1px rgb(155, 154, 154);
+    }
+
+    .price-bx{
+        text-align: center;
+    }
+    .deal-brg{
+        border: 1px solid #f93a3a;
+    }
+    .vm-cont{
+        width: 100%;
+    }
+
+    .fr-cnc {
+        margin-top: 8px;
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    .gfg-div {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        color: #fff;
+    }
 }
