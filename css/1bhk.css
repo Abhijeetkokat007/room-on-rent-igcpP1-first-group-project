@@ -363,8 +363,11 @@
     .fr-cnc {
         margin-top: 8px;
     }
-    .side-br-cont-main{
+    .side-br-cont-main {
+        width: 100%;
+        height: 100px;
         display: none;
+
     }
 
 }
