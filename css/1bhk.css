@@ -1,64 +1,69 @@
+.h-cont {
+    display: flex;
+    margin-bottom   : 30px;
+    width: 70%;
+    position: relative;
+    left: 30%;
 
-.h-cont
-{
-   display: flex;
-   
 }
-.vm-cont
+
+.side-br-cont-main
 {
+    position: fixed;
+    height: 100vh;
+}
+.vm-cont {
     justify-content: space-around;
     display: flex;
 }
-.main-cont
-{
+
+.main-cont {
     display: flex;
     padding: 10px;
-    box-shadow: -2px 2px 5px 1px rgb(155, 154, 154);
-    border-radius: 20px 0 0 20px;
-    width: 50%;
+    box-shadow: -1px 0 2px 1px rgb(155, 154, 154);
+    border-radius: 10px 0 0 10px;
+    width: 70%;
 
 }
-.card-imgs-cont
-{
+
+.card-imgs-cont {
     height: 138px;
     width: 274px;
     padding: 4px;
 }
 
-.card-imgs-main
-{
+.card-imgs-main {
     padding: 4px;
     width: 45%;
 }
 
-.cards-imgs{
+.cards-imgs {
     height: 100%;
     width: 100%;
-    
+
 }
 
-.cards-sm-imgs-cont
-{
+.cards-sm-imgs-cont {
     display: flex;
     padding: 4px;
 }
 
-.sm-img
-{
+.sm-img {
     height: 100%;
 }
 
-.sm-img-cont
-{
+.sm-img-cont {
     height: 40px;
     width: 60px;
     display: block;
     padding: 4px;
 }
 
-.details-btn{
+.details-btn {
     padding-top: 8px;
     padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #f93a3a;
     color: white;
     border: none;
@@ -72,101 +77,94 @@
 
 /* cards textx */
 
-.card-tst-cont
-{
+.card-tst-cont {
     padding: 4px;
     width: 55%;
 }
 
-.card-price-cont
-{
+.card-price-cont {
     padding: 6px;
-    box-shadow: 2px 2px 5px 1px rgb(155, 154, 154);
-    border-radius: 0 20px 20px 0;
+    box-shadow: 0 0 2px 1px rgb(155, 154, 154);
+    border-radius: 0 10px 10px 0;
+    background-color: rgb(249, 245, 245);
     width: 20%;
     display: flex;
     justify-content: end;
 
 }
 
-.price-bx
-{
+.price-bx {
     margin-right: 5%;
     text-align: end;
     padding: 4px;
     margin-top: 10px;
 }
 
-.rating-txt
-{
+.rating-txt {
     margin: 0;
 }
 
-.deal-brg
-{
+.deal-brg {
     border-bottom: 1px solid #f93a3a;
     border-top: 1px solid #f93a3a;
     border-left: 1px solid #f93a3a;
     padding: 4px;
-    
+
 }
 
-.rating-cont
-{
+.rating-cont {
     margin-bottom: 15px;
 }
 
-.deal-brg-cont
-{
+.deal-brg-cont {
     padding: 4px;
     margin-bottom: 20px;
 }
 
-.hed-txt
-{
+.hed-txt {
     padding: 4px;
-   font-family: 'Bree Serif', serif;
-   font-size: 20px;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
 
 }
 
 
-.price-data
-{
+.price-data {
     padding: 4px;
 }
 
-.mx-price
-{
-display: block;
-text-decoration: line-through;
-color: #f93a3a;
+.mx-price {
+    display: block;
+    text-decoration: line-through;
+    color: #f93a3a;
 }
 
-.nw-price
-{
-display: block;
-color: #f93a3a;
-font-size: 20px;
-font-family: 'Bree Serif', serif;
+.nw-price {
+    
+    display: block;
+    color: #f93a3a;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
 
 }
 
-
-.btn-cont
+.rup-sys
 {
+    color: #060606;
+}
+
+
+.btn-cont {
     display: flex;
 }
 
-.subtn
-{
+.subtn {
     margin-left: 8px;
     padding: 4px;
     width: auto;
 }
 
-.btn-txt
-{
+.btn-txt {
     padding-top: 8px;
     padding-bottom: 8px;
     background-color: #f93a3a;
@@ -179,22 +177,73 @@ font-family: 'Bree Serif', serif;
     font-weight: bold;
 }
 
-.su-btn
-{
-    margin-left: 8px;
-    padding: 4px;
-    width: auto;
-}
-.su-btn-txt
-{
-    padding: 4px;
-    background-color: #f93a3a;
-    color: white;
-    border: none;
-    height: 30px;
-    font-size: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 20px;
+/* --------side bar-------------- */
 
+.side-br-cont-main
+{
+    width: 27%;
+    height: 100vh;
+}
+
+.brand-heading {
+    color: #f93a3a;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.side-bar {
+    height: 92vh;
+    box-shadow: 0 0 2px 1px gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.inputBox :focus {
+    outline: none;
+
+}
+
+.inputBox {
+    display: block;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 3px solid #060606;
+    border-radius: 10px;
+
+}
+
+.in-1 {
+    height: 30px;
+    width: 200px;
+    border-radius: 30px 0 0 30px;
+    background-color: white;
+    border: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.rooms {
+
+
+    box-shadow: 0 0 2px 1px gray;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.bed {
+    color: green;
+    font-weight: bold;
+
+}
+
+.fr-cnc
+{
+    color: green;
+    font-weight: bold;
 }
