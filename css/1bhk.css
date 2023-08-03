@@ -2,12 +2,19 @@
 .h-cont
 {
    display: flex;
+   
+}
+.vm-cont
+{
+    justify-content: space-around;
+    display: flex;
 }
 .main-cont
 {
     display: flex;
     padding: 10px;
-    border: 1px solid #f93a3a;
+    box-shadow: -2px 2px 5px 1px rgb(155, 154, 154);
+    border-radius: 20px 0 0 20px;
     width: 50%;
 
 }
@@ -21,6 +28,7 @@
 .card-imgs-main
 {
     padding: 4px;
+    width: 45%;
 }
 
 .cards-imgs{
@@ -48,18 +56,17 @@
     padding: 4px;
 }
 
-.sic-cont
-{
-    background-image: url(https://r1imghtlak.mmtcdn.com/663f0f0a300811e9af7a0242ac110002.jpg?&output-quality=75&downsize=583:388&output-format=jpg);
-    width: auto;
-    height: auto;
-    background-position: center;
-}
-.sic-cont-txt
-{
-    text-decoration: none;
-    color: #f93a3a;
-    text-align: center;
+.details-btn{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #f93a3a;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 
@@ -68,14 +75,14 @@
 .card-tst-cont
 {
     padding: 4px;
+    width: 55%;
 }
 
 .card-price-cont
 {
     padding: 6px;
-    border-bottom: 1px solid #f93a3a;
-    border-top: 1px solid #f93a3a;
-    border-right: 1px solid #f93a3a;
+    box-shadow: 2px 2px 5px 1px rgb(155, 154, 154);
+    border-radius: 0 20px 20px 0;
     width: 20%;
     display: flex;
     justify-content: end;
@@ -100,6 +107,7 @@
     border-bottom: 1px solid #f93a3a;
     border-top: 1px solid #f93a3a;
     border-left: 1px solid #f93a3a;
+    padding: 4px;
     
 }
 
@@ -108,7 +116,7 @@
     margin-bottom: 15px;
 }
 
-.deal-brg
+.deal-brg-cont
 {
     padding: 4px;
     margin-bottom: 20px;
@@ -144,6 +152,12 @@ font-family: 'Bree Serif', serif;
 
 }
 
+
+.btn-cont
+{
+    display: flex;
+}
+
 .subtn
 {
     margin-left: 8px;
@@ -152,6 +166,26 @@ font-family: 'Bree Serif', serif;
 }
 
 .btn-txt
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #f93a3a;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.su-btn
+{
+    margin-left: 8px;
+    padding: 4px;
+    width: auto;
+}
+.su-btn-txt
 {
     padding: 4px;
     background-color: #f93a3a;
@@ -162,5 +196,5 @@ font-family: 'Bree Serif', serif;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 20px;
-}
 
+}
