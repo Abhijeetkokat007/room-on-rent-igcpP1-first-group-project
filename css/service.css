@@ -1,37 +1,41 @@
-*{
+* {
     margin: 0%;
 }
-.body-structure{
+
+.body-structure {
     margin-left: 90px;
     margin-right: 90px;
     font-family: sans-serif;
- }
+}
 
- .brand-heading-1{
+.brand-heading-1 {
     color: white;
- margin-right: auto;
- margin-left: 20px;
- font-weight: bold;
- font-size: 30px;
+    margin-right: auto;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 30px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: auto;
     margin-bottom: auto;
 }
+
 /* -----navbar------------------ */
 nav {
-   height: 60px;
-   background-color: #d8232a;
-   display: flex;
-   justify-content: center;
-   position: sticky;
-   top: 0;
-   width: 100%;
+    height: 60px;
+    background-color: #d8232a;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
-.nav-items{
+
+.nav-items {
     display: flex;
     justify-content: end;
 }
-.post-btn{
+
+.post-btn {
     height: 40px;
     border-radius: 50px;
     border: none;
@@ -41,113 +45,231 @@ nav {
     margin-right: 50px;
     font-weight: bold;
     font-size: 18px;
+    cursor: pointer;
 
 }
-.post-btn:hover{
+
+.post-btn:hover {
     border: 2px solid black;
     background-color: #fce188;
     padding-left: 10px;
     padding-right: 10px;
     color: black;
 }
- /* -------------------Post property Ad to sell----------------- */
- .heading-1{
-     font-family: sans-serif;
-     margin-top: 130px;
-     color: #d8232a;
- }
- .heading{
-     font-family: sans-serif;
-     margin-top: 90px;
-     color: #d8232a;
- }
- .check-mark{
-     height: 30px;
- }
- .check-text{
-     font-size: 20px;
- }
- .service-poster{
-   height: 400px;
-   margin-left: 70px;
 
- }
- .div-header{
-     display: flex;
-     justify-content: center;
- }
- /* --------------------How it works---------- */
- .forsale{
-     height: 200px;
-   
-     border-radius: 40px;
- }
- .steps-para{
-     margin-top: 40px;
-     font-family: system-ui;
- }
- .how-it-work{
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     width: 85%;
-     background-color: white;
+.home-png {
+    display: none;
+}
 
- }
- .step-heading{
-     font-size: 20px;
- }
- .m-1{
-     margin-left: 50px;
- }
- .Apartment-rent-bro{
-     height: 400px;
-   margin-top: 100px;
-   margin-left: 20px;
- }
- .apartment-img{
-     height: 500px;
-    margin-right: 90px;
-     width: 300px;
-    
- }
-.how-it-work-main-div{
- display: flex;
- 
- 
+/* -------------------Post property Ad to sell----------------- */
+.heading-1 {
+    font-family: sans-serif;
+    margin-top: 130px;
+    color: #d8232a;
+}
+
+.heading {
+    font-family: sans-serif;
+    margin-top: 90px;
+    color: #d8232a;
+}
+
+.check-mark {
+    height: 30px;
+}
+
+.check-text {
+    font-size: 20px;
+}
+
+.service-poster {
+    height: 400px;
+    margin-left: 70px;
 
 }
- /* --------------------Tips on Selling a Property Online-------------- */
- .sealing-icon{
-     height: 40px;
-     border: solid 1.5px black;
-     background-color: #fce188;
-     box-shadow: 1px 2px 5px 1px rgb(155, 154, 154);
-     border-radius: 50%;
-     padding: 15px;
-     margin-top: 10px;
- }
- .sealing-online{
-     display: flex;
-     flex-direction: row;
-     justify-content: start;
-     width: 40%;
+
+.div-header {
+    display: flex;
+    justify-content: center;
+}
+
+/* --------------------How it works---------- */
+.forsale {
+    height: 200px;
+    border-radius: 40px;
+}
+
+.steps-para {
+    margin-top: 40px;
+    font-family: system-ui;
+}
+
+.how-it-work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    background-color: white;
+
+}
+
+.step-heading {
+    font-size: 20px;
+}
+
+.m-1 {
+    margin-left: 50px;
+}
+
+.Apartment-rent-bro {
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.apartment-img {
+    height: 500px;
+    margin-right: 90px;
+    width: 300px;
+
+}
+
+.how-it-work-main-div {
+    display: flex;
+
+
+
+}
+
+/* --------------------Tips on Selling a Property Online-------------- */
+.sealing-icon {
+    height: 40px;
+    border: solid 1.5px black;
+    background-color: #fce188;
+    box-shadow: 1px 2px 5px 1px rgb(155, 154, 154);
+    border-radius: 50%;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.sealing-online {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 40%;
     box-shadow: 1px 2px 5px 1px rgb(155, 154, 154);
     padding: 15px;
     border-radius: 20px;
- }
- .sealing-online:hover{
-     box-shadow: 1px 2px 10px 5px rgb(100, 99, 99);
- }
- .tips-para{
-     margin-left: 20px;
- }
- .property-div-1{
-     display: flex;
-     justify-content: space-between;
- }
- .property-div-2{
-     margin-top: 40px;
-     display: flex;
-     justify-content: space-between;
- }
+}
+
+.sealing-online:hover {
+    box-shadow: 1px 2px 10px 5px rgb(100, 99, 99);
+}
+
+.tips-para {
+    margin-left: 20px;
+}
+
+.property-div-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.property-div-2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ---------------------mobile view------------------------ */
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0%;
+    }
+
+    .brand-heading-1 {
+        color: white;
+        margin-right: auto;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    /* -----navbar------------------ */
+    nav {
+        height: 60px;
+        background-color: #d8232a;
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+
+    .post-btn {
+        display: none;
+    }
+
+    .div-header {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .service-poster {
+        height: 230px;
+      
+        
+
+    }
+
+    .heading-1 {
+        font-family: sans-serif;
+        color: #d8232a;
+    }
+
+    .heading {
+        font-family: sans-serif;
+        color: #d8232a;
+    }
+
+    .check-mark {
+        height: 20px;
+    }
+
+    .check-text {
+        font-size: 16px;
+    }
+    .apartment-img{
+        display: none;
+    }
+    .property-div-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .property-div-2{
+        margin-top: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+    .sealing-online{
+        width: 400px;
+    }
+    .body-structure{
+        padding-bottom: 90px;
+       
+    }
+    .how-it-work{
+       width: 60%;
+    }
+    .m-1 {
+        margin-left: 10px;
+    }
+    .heading{
+        margin-top: 90px;
+    }
+
+}
