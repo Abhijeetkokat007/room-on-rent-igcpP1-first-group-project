@@ -218,7 +218,9 @@ nav {
         flex-direction: column-reverse;
 
     }
-
+    .home-png{
+        height: 35px;
+    }
     .service-poster {
         height: 230px;
       
