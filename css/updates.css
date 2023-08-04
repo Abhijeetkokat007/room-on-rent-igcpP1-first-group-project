@@ -46,10 +46,17 @@ button{
     width: 150px;
     align-items: end;
     position: absolute;
-    left: 530px;
+    margin-left: 670px;
 
    
 }
+.back{
+    position: fixed;
+    margin-left: 15px;
+   
+
+  }
+
 button:hover{
     border: solid 2px black;
     background-color: white;
@@ -58,36 +65,35 @@ button:hover{
 
     /*footer*/
     .container-foot1{
-        display: flex;
-        flex-direction: row;
-        justify-content:space-around;
-        flex-wrap: wrap;
-        background-color: #f5f5f5;
-        padding-top: 80px;
-        padding-bottom: 80px;
-       }
-       .container-foot{background-color: #f5f5f5;
-      padding-bottom: 50px;}
-       .foot-icon{
-        font-size: 30px;
-        margin-left: 10px;
-        color: #d8232a;
-       }
-       .foot-anchor{
-        text-decoration: none;
-       }
-       .color-light{
-        color: #666565;
-       }
-       .fotr-cont{
-          text-align: center;
-    
-       }
-       .tex-red{color:#d8232a ;}
-       .con-foot{
-        
-          padding: 50px;
-          
-       }
-    /* ------------- */
-    
+       display: flex;
+       flex-direction: row;
+       justify-content:space-around;
+       flex-wrap: wrap;
+       background-color: #f5f5f5;
+       padding-top: 80px;
+       padding-bottom: 80px;
+      }
+      .container-foot{background-color: #f5f5f5;
+     padding-bottom: 50px;}
+      .foot-icon{
+       font-size: 30px;
+       margin-left: 10px;
+       color: #d8232a;
+      }
+      .foot-anchor{
+       text-decoration: none;
+      }
+      .color-light{
+       color: #666565;
+      }
+      .fotr-cont{
+         text-align: center;
+   
+      }
+      .tex-red{color:#d8232a ;}
+      .con-foot{
+       
+         padding: 50px;
+         
+      }
+   
