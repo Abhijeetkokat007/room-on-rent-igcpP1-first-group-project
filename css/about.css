@@ -12,6 +12,7 @@ body{
   margin-bottom: auto;
 }
 
+
 /* -----navbar------------------ */
 nav {
   height: 60px;
@@ -50,6 +51,7 @@ nav {
   color: black;
 
 }
+
 .home-png {
   display: none;
 }
