@@ -27,4 +27,13 @@
 <li>form :- @datta88 </li>
 
 
+## Phase III
+<li>Explore lastet update page  :- @Bandinikohare2001 </li>
+<li> connect all page in home page :- @Abhijeetokat007 </li>
+<li>call for maintanance page :- @datta88 </li>
+<li> main BHK page :- @Harshvardhan-Kh </li>
+<li>details in BHK page :- @shitalwarkhade89 </li>
+
+
+
 
