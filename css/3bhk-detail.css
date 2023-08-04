@@ -46,13 +46,13 @@ nav {
 
 .post-btn:hover {
     border: 2px solid black;
-    background-color: #fce188;
+    background-color: #f1e8c7;
     padding-left: 10px;
     padding-right: 10px;
     color: black;
 }
 
-/* *** */
+/* *----------------------------------- */
 
 .images-sub-div{
     display: flex;  
@@ -63,7 +63,10 @@ nav {
     padding: 20px;
     
 } 
-
+.name{
+    font-size: 18px;
+    text-align: center;
+}
 .img-sub-cont
 {
     height: 250px;
@@ -77,51 +80,78 @@ nav {
     margin-left: 30px;
     margin-right: 50;
 }
-.main-div{
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    border: 1px solid #d8232a;
-    border-radius: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+        .amenities-main-class{
+            height: 450px;
+         margin-top: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color:#f7f7f7;
+        }
+        
+.amenities-sub-class{
+  height: 300px;
+ width: 650px;
+ margin-top: auto;
+   margin-bottom: auto;
+
 }
-.heading{
-    font-size: 20px;  
-    color: #d70037;
-    text-align: center;
+.img-div{
+    height: 450px;
+   margin-top: auto;
+   margin-bottom: auto;
+   
 }
-.sub-div1{
-    height:auto;
-    padding: 30px;
-    padding-top: 5px;  
-}
-/* .sub-div-2{
-    height: 300px;
-    padding: 30px;
-    
-} */
-.key-text{
-    width: 60%;
+
+/* ------------ */
+
+.main-container-detail{
+            height: 400px;
+        background-color: #fff5e4;
+            padding: 10px;
+            display: flex;
+            justify-content:center;
+            margin-top: 50px;
+        
+        }
+        .owner-deatails{
+            height: 350px;
+            width: 230px;
+            padding: 20px;
+background-color: white;
+            margin-right: 100px;
+            
+        }
+        .img-owner{
+            height: 230px;
+            width: 230px;
+          
+        }
+        .name{
+            text-align: start;
+        }
+        /* ---------------- */
+        .key-text{
+    width: 100%;
+    height: 30px;
 }
 
 .key-text-value
 {
-    width: 40%;
+    width: 350px;
     text-align: left;
 }
 
 .key{
     font-size: 18px;
     margin-bottom: 15px;
-    display: flex;
+    display: flex;  
 }
 .value{
     font-size: 18px;
     margin-bottom: 15px;
 }
+
 .pay-link{
     color:#d70037;
 }
@@ -143,51 +173,40 @@ nav {
     color: white;
     text-decoration:none ;
 }
-.amenities-main-class{
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    border: 1px solid #d8232a;
-    border-radius: 10px;
-    margin-top: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.amenities-heading{
-    color: #d70037;
-    text-align: center;
-}
-.amenities-sub-class{
-    height:auto;
-    padding: 30px;
-    padding-top: 5px; 
-}
+/* ---------------------- */
 .lift-icon{
    
-    display: flex;
-    align-items: center; 
-    /* border: 1px solid black; */
-    width: 200px;
-    height: 70px;
-    margin: 10px;
+   display: flex;
+   align-items: center; 
+   /* border: 1px solid black; */
+   width: 200px;
+   height: 70px;
+   margin: 10px;
 
 }
 .icon-cont{
-    margin-right: 20px;
+   margin-right: 20px;
 }
 .lifticon{
-    height: 35px;
-    margin-bottom: -10px;   padding: 7px;
-    border: 1px solid black;
-    border-radius: 50%;
-    background-color: #fce188;
-    align-items: center; 
+   height: 35px;
+   margin-bottom: -10px;   padding: 7px;
+   border: 1px solid black;
+   border-radius: 50%;
+   background-color: #fce188;
+   align-items: center; 
 }
 .amenities-name{
-    font-size: 20px;
-    margin-top: -5px;  
+   font-size: 20px;
+   margin-top: -5px;  
 }
+.amenities-row-1{
+   display: flex;
+   justify-content: space-between;
+   margin: 25px;  
+   margin-left: 10px;
+}
+/* ---------- */
+
 .amenities-row-1{
     display: flex;
     justify-content: space-between;
@@ -195,28 +214,37 @@ nav {
     margin-left: 10px;
 }
 .locality-main-div{ 
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto; 
     display: flex; 
     justify-content: center;
 
 }
+.education-institute-hed{
+    font-size: 28px;
+}
+.info-locality{
+    font-size: 22px;
+}
 .locality-row-1{
     display: flex;
     justify-content: space-evenly;
     margin: 25px;  
     margin-left: 10px;
+
     
 }
 .education-institute{
-    height: 90px;
-    width: 300px;
-    box-shadow: 1px 2px 5px 1px rgb(155, 154, 154);
+    height: 130px;
+    width: 400px;
+    border: 1px solid #d70037;
+    box-shadow: 2px 2px 5px 1px rgb(130, 128, 128);
     border-radius: 5px;
     padding: 10px;
     margin: 5px;
     display: flex;
+    margin-left:90px;margin-right:90px;
     
 }
 .education-icon{
@@ -230,11 +258,10 @@ nav {
     background-color: #fce188;
 }
 
-.locality-sub-div
-{
-    border: 1px solid #d8232a;
+.locality-sub-div{
+   
     border-radius: 10px;
-    width: 60%;  
+   
 }
 .dts-cont
 {
@@ -245,6 +272,9 @@ nav {
     color: #d70037;
     text-align: center;
 }
+/* -------------------- */
+
+
 .working-process-main-cont{
     display: flex;
     justify-content: space-between;
@@ -256,15 +286,16 @@ nav {
  justify-content: space-around;
  flex-wrap: wrap;
     margin: 25px;
-    border: 1px solid #d70037;
+  
     width:auto;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
 }
 .process-1{
-    width: 200px;
-    height: 290px;
+    border: solid 1px #d8232a;
+    width: 250px;
+    height: 350px;
     box-shadow: 1px 2px 5px 1px rgb(155, 154, 154);
     margin: 20px;
     padding: 15px;
@@ -281,7 +312,9 @@ nav {
    background-color: #fce188;
 }
 .steps-process{
+    padding: 8px;
     font-size: 25px;
+    margin-top: 50px;
     text-align: center;
 }
 .process-info{
@@ -289,8 +322,10 @@ nav {
     font-size: 15px;
 }
 .heading{
-    margin-left: 150px;
+    margin-top: 30px;
+   text-align: center;
     font-size: 40px;
+    color: #d70037;
 }
 
 @media screen and (min-width:468px) and (max-width:811px) {
@@ -313,6 +348,7 @@ nav {
     .locality-row-1{
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
 
     }
     .locality-sub-div{
@@ -358,7 +394,10 @@ border: none;
         
             }
         }
-        /*footer*/
+       
+
+        
+        /* /footer/ */
     .container-foot1{
         display: flex;
         flex-direction: row;
@@ -394,6 +433,3 @@ border: none;
        }
     
    
-
-
-
