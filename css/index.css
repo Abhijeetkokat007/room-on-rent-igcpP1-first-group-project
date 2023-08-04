@@ -7,7 +7,7 @@ body {
   .d-flex {   
      display: flex;
      flex-wrap: wrap;
-  }
+  }   
   .color-lired{
      color: #fc0d15;
   }
@@ -235,10 +235,11 @@ body {
      border-radius: 50px;
      background-color: #d8232a;
      color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
      border-radius: 50px;
+     border: none;
      margin-left: 30px;
-     font-weight: bold;
+    
   
   }
   
@@ -341,7 +342,16 @@ body {
      border-radius: 50px;
   
   }
-  
+
+  .rent-collection{
+   width: 90%;
+  }
+  .furni-div{
+   width: 100%;
+  }
+  .furnished-img{
+   width: 100%;
+  }
   
   } 
   
@@ -469,12 +479,13 @@ margin-left: 220px;}
     .ml-30{ margin-left: 40px;}
     .ta-center{display: flex;
    flex-wrap: wrap;
-   justify-content: space-around;} 
-
+   justify-content: space-around;}
+   
+   
    /* poster 2 */
 
    .misco-img{
-      height: 500px;
+      height: 450px;
       /* border: 2px solid #d8232a; */
    }
    .poster-subdiv{
@@ -490,8 +501,9 @@ margin-left: 220px;}
       background-color: #d8232a;
       border-radius: 5px;
       border: 2px solid #d8232a;
+      border-radius: 30px;
       font-weight: bold;
-      margin-left:230px;
+      /* margin-left:230px; */
       width: 200px;
    }
    .btn-listyouspace:hover{
@@ -512,23 +524,23 @@ margin-left: 220px;}
         background-size:100% 100%;
         margin: 20px;
        display: inline-block;
-    }
+      }
     .div-apar:hover{box-shadow: 0 2px 20px 0 rgb(87, 87, 87);
     background-size:103% 103%;
    cursor: pointer;}
     .apar-anchor{
-        text-decoration: none;
+       text-decoration: none;
         font-size: 34px;
         color: rgb(67, 66, 110); 
-    }
-    .apar-anchor:hover{color: #d8232a;}
+      }
+      .apar-anchor:hover{color: #d8232a;}
     .apar-span{
         margin: 40px;
         text-align: center;
-    }
+      }
     .bg-vill{background-image: url("./../img/index-page-img/villa.webp");
-     background-color:  #ccffcc;}
-    .bg-builder{background-image: url("./../img/index-page-img/builderfloor.webp ");
+      background-color:  #ccffcc;}
+      .bg-builder{background-image: url("./../img/index-page-img/builderfloor.webp ");
      background-color: #cce6ff;}
     .bg-studio{background-image: url("./../img/index-page-img/studioapartment.webp "); 
     background-color:  #fff5cc;}
@@ -538,23 +550,23 @@ margin-left: 220px;}
     background-color: #ebccff;}
   
     div.scroll-container {
-  background-color: #fefcfc;
-  overflow: auto;
-  white-space: nowrap;
+       background-color: #fefcfc;
+       overflow: auto;
+       white-space: nowrap;
   padding: 10px;
   margin-left: 60px;
   margin-right: 60px; 
-  }
+}
      
-   /* home by furnished */
+/* home by furnished */
    .mt-60{margin-top: 60px;}
    .furnished-img{
-     width: 400px;
+      width: 100%;
      border-radius: 10px;
-    }
-  
-    .furni-div{
-        width: 400px;
+   }
+   
+   .furni-div{
+      width: 400px;
         margin-left: auto;
         margin-right: auto;  
         margin: 20px;
@@ -563,7 +575,7 @@ margin-left: 220px;}
         border-radius:5px;
         padding-bottom: 10px;
         margin-bottom: 50px;
-     } 
+      } 
         .furni-div:hover{
            box-shadow: 0 2px 20px 0 rgb(87, 87, 87);
            cursor: pointer;
@@ -576,28 +588,28 @@ margin-left: 220px;}
         color: rgb(81, 82, 82);
         margin-left: 10px;
         
-    }
+      }
     .firni-anchor:hover{color: #d8232a;}
-  
+    
     .d-flex{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-    }
+      }
     .heald-card{
-        text-align:center;
-        color: rgb(91, 87, 106);
+       text-align:center;
+       color: rgb(91, 87, 106);
     }
    
     /* posterin */
    .poster-main{background-color: #efeeee;}
    .poster1-img{
-    width: 500px;
+    width: 100%;
     
     margin-top: 30px;
    }
    .findmyroom-tex{
-    width: 500px;
+      width: 500px;
   
     padding: 30px;
    }
@@ -610,7 +622,7 @@ margin-left: 220px;}
      margin-bottom: 30px;
      width: 200px; 
     border-radius: 10px;
-     padding: 20px;
+    padding: 20px;
    }
    .div-nobrocker:hover{
      box-shadow: 0 2px 20px 0 rgb(87, 87, 87);
@@ -625,23 +637,23 @@ margin-left: 220px;}
      margin-bottom: 50px;
    }
    .heading-3{
-     text-align: center;
+      text-align: center;
    }
     
-  
+   
    /* our coustmars loves us */
-  
+   
    .tex-span1{
      color: rgb(110, 111, 111);
   }
   .flex-1{
-      display: flex;
-      flex-direction: row ;
-  }
-  .img-man{
+     display: flex;
+     flex-direction: row ;
+   }
+   .img-man{
       height: 50px;
       border-radius: 50%;
-  }
+   }
   .flex-2{
       margin-left: 20px;
   }
@@ -654,21 +666,21 @@ margin-left: 220px;}
       padding: 10px;
   }
   .col-yello{
-      color: gold;
-  }
-  
-  div.scroll-container {
-  background-color: #fefcfc;
+     color: gold;
+   }
+   
+   div.scroll-container {
+      background-color: #fefcfc;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
   margin-left: 30px;
   margin-right: 50px;
   margin-bottom: 60px;
-  }
-  .d-flex-1{
-  display: flex;
-  }
+}
+.d-flex-1{
+   display: flex;
+}
   
    
     /*footer*/
@@ -695,14 +707,26 @@ margin-left: 220px;}
        color: #666565;
       }
       .fotr-cont{
-      text-align: center;
+         text-align: center;
    
       }
       .tex-red{color:#d8232a ;}
       .con-foot{
        
-        padding: 50px;
-  
+         padding: 50px;
+         
       }
    
+      @media screen and ( min-width:360px ) and ( max-width: 668px)
+       {
+         .rent-collection{
+            height: 200px;
+            width: 80%;
+         } 
+         .furnished-img{
+            width: 80%;
+         }
+         .poster1-img{
+            width: 100%;}
+      }
   
