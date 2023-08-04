@@ -2,6 +2,68 @@
     margin: 0;
     padding: 0;
 }
+.heading-maintanance
+{
+text-align: center;
+color: #f93a3a;
+margin-bottom: 60px;
+}
+/* -----navbar------------------ */
+
+
+.brand-heading-1 {
+    color: white;
+    margin-right: auto;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav {
+    height: 60px;
+    background-color: #d8232a;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: end;
+}
+
+.post-btn {
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: #d8232a;
+    color: white;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.post-btn:hover {
+    border: 2px solid black;
+    background-color: #fce188;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+}
+
+.home-png {
+    display: none;
+}
+
+/* navbarend */
 
 .category-main-container {
     display: flex;
@@ -29,8 +91,8 @@ h1 {
 }
 
 .card {
-    height: 300px;
-    width: 180px;
+    height: 400px;
+    width: 300px;
     border-radius: 10px;
     margin-top: 20px;
     border: 1px solid #f93a3a;
@@ -39,16 +101,26 @@ h1 {
 }
 
 .card:hover {
-    height: 295px;
-    width: 182px;
-    box-shadow: 0px 2px 20px 0px rgb(87, 87, 87);
+    /* height: 295px;
+    width: 182px; */
+    box-shadow: 0px 2px 20px 0px rgb(114, 114, 114);
     cursor: pointer;
 }
 
 .carporet-img-1 {
-    height: 150px;
-    width: 180px;
+    
+    width: 100%;
     border-radius: 10px 10px 0px 0px;
+}
+.btn-contactnow{
+    background-color: #f93a3a;
+    border: 2px solid #f93a3a;
+    color: white;
+    padding: 5px;
+    width: 150px;
+    border-radius: 5px;
+   margin-left:65px;
+  
 }
 
 .per-contener {
@@ -57,6 +129,7 @@ h1 {
 
 .category-img {
     height: 150px;
+ 
     border-radius: 10px;
 }
 
@@ -65,14 +138,13 @@ h1 {
 }
 
 .card-heading:hover {
-    box-shadow: 0px 2px 20px 0px rgb(87, 87, 87);
+    box-shadow: 0px 2px 20px 0px rgb(170, 169, 169);
     cursor: pointer;
     height: 180px;
     border-radius: 10px;
 }
 
 .anker-tag {
-    color: #f93a3a;
     text-decoration: none;
     margin-left: 50px;
 }
@@ -80,6 +152,48 @@ h1 {
 .anker-tag:hover {
     color: black;
 }
+.name1{
+   
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+   margin-left: 90px;
+}
 
 
- 
+    /*footer*/
+    .container-foot1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        background-color: #f5f5f5;
+        padding-top: 80px;
+        padding-bottom: 80px;
+       }
+       .container-foot{background-color: #f5f5f5;
+      padding-bottom: 50px;}
+       .foot-icon{
+        font-size: 30px;
+        margin-left: 10px;
+        color: #d8232a;
+       }
+       .foot-anchor{
+        text-decoration: none;
+       }
+       .color-light{
+        color: #666565;
+       }
+       .fotr-cont{
+       text-align: center;
+    
+       }
+       .tex-red{color:#d8232a ;}
+       .con-foot{
+        
+         padding: 50px;
+   
+       }
+       .mt-100{
+        margin-top:-20px;
+       }
