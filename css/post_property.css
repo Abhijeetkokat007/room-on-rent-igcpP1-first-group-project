@@ -1,4 +1,4 @@
-body{
+body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -6,42 +6,38 @@ body{
 
 .main-div {
 
-    
+
     padding-bottom: 200px;
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: space-between;
     padding: 80px;
+    flex-wrap: wrap;
 
-    
+
 }
 
-    /* box-shadow: 0px 2px 4px 0px gray;
-    border-radius: 50px;
-*/
-.for-sale-house{
-    height: 500px;
-    filter: drop-shadow(0 0 .45rem rgb(134, 134, 241) );
+.for-sale-house {
+    height: 70%;
+    filter: drop-shadow(0 0 .45rem rgb(134, 134, 241));
     position: fixed;
     /* filter: drop-shadow(0 0 .45rem  #ec8487); */
 }
 
- .form-div{
-    width: 600px;
+.form-div {
+    padding: 20px 30px 70px 40px;
     text-align: center;
     box-shadow: 0px 2px 2px 3px #b2dfd8;
     border-radius: 50px;
-    padding-bottom: 70px;
+
 }
 
 .heading {
     text-align: center;
     margin: 10px;
-    position: relative;
     top: 40px;
-    right: 25px;
     font-size: 30px;
-    color: #d8232a; 
+    color: #d8232a;
 }
 
 .sub-heading {
@@ -50,18 +46,17 @@ body{
     margin: 20px;
     position: relative;
     top: 28px;
-    right: 30px;
 }
 
 .sub-heading-span {
-   color: green;
-   
+    color: green;
+
 }
 
 .personal-detail {
-    text-align: center;
-    position: relative;
-    right: 110px;
+    text-align: left;
+    margin:15px 0 0 35px;
+
 }
 
 .redio-btn-name {
@@ -73,9 +68,7 @@ body{
     margin-right: 100px;
 }
 
-.name {
-    right: 170px;
-}
+
 
 .input-box {
     font-size: 15px;
@@ -89,38 +82,39 @@ body{
 .input-box:focus {
     outline: none;
 }
-.proprty-name{
-   background-color: rgb(168, 164, 164);
-   display: block;
+
+.proprty-name {
+    background-color: rgb(168, 164, 164);
+    display: block;
 }
-.log-post-btn{
+
+.log-post-btn {
     font-size: 15px;
     padding: 10px;
-   padding-left: 23px;
-   padding-right: 23px;
-   border: none;
-   border-radius: 5px;
-   background-color: #d8232a;
-   color:white;
-   margin-top: 30px;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+    padding-left: 23px;
+    padding-right: 23px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d8232a;
+    color: white;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-.checboxes{
-text-align: justify;
-position: relative;
-left: 30px;
-top: 20px;
+
+.checboxes {
+    margin-top: 20px;
+    text-align:justify;
 }
 
 
 input[type="checkbox"]:checked {
     background: green;
     color: white;
-  }
-  
-  input[type="checkbox"] {
+}
+
+input[type="checkbox"] {
     cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -131,8 +125,9 @@ input[type="checkbox"]:checked {
     width: 16px;
     border: 1px solid white;
     color: white;
-  }
-  input[type="checkbox"]:after {
+}
+
+input[type="checkbox"]:after {
     content: ' ';
     position: relative;
     left: 40%;
@@ -143,12 +138,33 @@ input[type="checkbox"]:checked {
     border-width: 0 2px 2px 0;
     transform: rotate(50deg);
     display: none;
-  }
-  
-  input[type="checkbox"]:checked:after {
+}
+
+input[type="checkbox"]:checked:after {
     display: block;
-  }
-  
+}
 
+.up-img{
+    text-align: start;
+}
 
+@media screen and (min-width:375px) and (max-width:668px) {
+   .main-div {
+    display: block;
 
+   }
+   .for-sale-house{
+    position: relative;
+    top: 0px;
+    height: 400px;
+
+   }
+
+    .form-div {
+        text-align: center;
+        box-shadow: 0px 0px 2px 1px #d8232a;
+        border-radius: 50px;
+        font-size: 15px;
+
+    }
+}

@@ -2,6 +2,7 @@
 body {
     margin: 0;
     padding:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   .d-flex {   
      display: flex;
@@ -56,18 +57,21 @@ body {
   .btns {
      margin-left: auto;
      margin-right: 20px;
+     margin-top: 10px;
   }
   
   .login-btn {
      background-color: white;
      padding: 10px;
      border: none;
+     text-decoration: none;
+     color: black;
   
   }
   
   .user {
      font-size: 15px;
-     font-weight: bold;
+   
      box-sizing: border-box;
      position: relative;
      background-blend-mode: darken;
@@ -95,6 +99,7 @@ body {
   .selects {
      margin-top: 13px;
      background: none;
+    
   }
   
   .select-budget {
@@ -108,6 +113,7 @@ body {
      padding-left: 10px;
      padding-right: 5px;
      margin-right: 10px;
+     background-color: white;
   
   }
   
@@ -122,6 +128,7 @@ body {
      padding-left: 10px;
      padding-right: 5px;
      margin-right: 10px;
+     background-color: white;
   }
   
   .select-posted-by {
@@ -135,6 +142,7 @@ body {
      padding-left: 10px;
      padding-right: 5px;
      margin-right: 10px;
+     background-color: white;
   }
   
   .select-bhk {
@@ -148,6 +156,7 @@ body {
      padding-left: 10px;
      margin-right: 10px;
      padding-right: 5px;
+     background-color: white;
   }
   
   
@@ -201,7 +210,7 @@ body {
   }
   
   .hel-1 {
-     color: #d8232a;
+     color: white;
      font-size: 45px;
      padding-top: 100px;
   }
@@ -226,9 +235,10 @@ body {
      border-radius: 50px;
      background-color: #d8232a;
      color: white;
-    
+    border: 1px solid black;
      border-radius: 50px;
      margin-left: 30px;
+     font-weight: bold;
   
   }
   
@@ -340,9 +350,11 @@ body {
      width: 300px;
      border: 2px solid red;
      margin: 30px;
+     ;
      
   }
-  .rk1-div:hover{box-shadow: 0 2px 20px 0 rgb(87, 87, 87);}
+  .rk1-div:hover{box-shadow: 0 2px 20px 0 rgb(87, 87, 87);
+cursor: pointer;}
   .rk1-img{
      width: 300px;
   }
@@ -356,6 +368,51 @@ body {
   .rk1-anchor{
      text-decoration: none;
   }
+
+  /* choose type owner user */
+
+  .owner-img{
+   height: 60px;
+   margin-bottom: -15px;
+  }
+  .choose-maindiv{
+   margin: 50px;
+   /* border: 2px solid black; */
+  }
+  .choose-maindiv1{
+   /* border: 2px solid black; */
+   padding: 30px;
+   width: 70%;
+   border-radius: 10px;
+   margin-left:auto;
+   margin-right: auto;
+   margin-top: 50px;
+   background-color: #FFF5E4;
+  }
+  .choos-bg{
+   background-color: white;
+   width:410px;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 1px 10px 0 rgb(167, 166, 166);
+   cursor: pointer;
+  }
+  .mt-100{
+   margin-top: 100px;
+  }
+  .mt-20{margin-left: 20px;
+}
+.choos-acker{
+   text-decoration: none;
+font-size: 50px;
+margin-left: 200px;
+color: #555454;
+
+}
+.choos-acker:hover{color: #d8232a;
+margin-left: 220px;}
+.ml-220{margin-left: 220px; }
+.ml-220:hover{margin-left: 240px;}
   
     /*curated rental collection*/
     
@@ -385,8 +442,7 @@ body {
   }
   
   .rent-collection:hover {
-   
-  
+   cursor: pointer;
    background-size: 105%;
    box-shadow: 0 2px 20px 0  rgb(87, 87, 87);;
   }
@@ -414,6 +470,36 @@ body {
     .ta-center{display: flex;
    flex-wrap: wrap;
    justify-content: space-around;} 
+
+   /* poster 2 */
+
+   .misco-img{
+      height: 500px;
+      /* border: 2px solid #d8232a; */
+   }
+   .poster-subdiv{
+   margin-top:100px ;
+   /* border: 1px solid black; */
+   }
+   .poster2-main{
+      background-color: rgb(249, 246, 238);
+   }
+   .btn-listyouspace{
+      padding: 10px;
+      color: white;
+      background-color: #d8232a;
+      border-radius: 5px;
+      border: 2px solid #d8232a;
+      font-weight: bold;
+      margin-left:230px;
+      width: 200px;
+   }
+   .btn-listyouspace:hover{
+      color: #d8232a;
+      border: 2px solid #d8232a;
+      background-color: white;
+   }
+
   
      /* apartmentb villa and more */
      .div-apar{
@@ -427,8 +513,9 @@ body {
         margin: 20px;
        display: inline-block;
     }
-    .div-apar:hover{box-shadow: 0 2px 20px 0 rgb(87, 87, 87);}
-    .div-apar:hover{background-size:103% 103%;}
+    .div-apar:hover{box-shadow: 0 2px 20px 0 rgb(87, 87, 87);
+    background-size:103% 103%;
+   cursor: pointer;}
     .apar-anchor{
         text-decoration: none;
         font-size: 34px;
@@ -472,13 +559,15 @@ body {
         margin-right: auto;  
         margin: 20px;
         margin-top: 40px;
-        border-radius:5px;                                                                      
+        border-radius:10px;                                                                      
         border-radius:5px;
         padding-bottom: 10px;
         margin-bottom: 50px;
      } 
         .furni-div:hover{
            box-shadow: 0 2px 20px 0 rgb(87, 87, 87);
+           cursor: pointer;
+           border-radius: 10px;
         }                                                                                                                                  
   
     .firni-anchor{
@@ -486,6 +575,7 @@ body {
         font-size: 20px;
         color: rgb(81, 82, 82);
         margin-left: 10px;
+        
     }
     .firni-anchor:hover{color: #d8232a;}
   
@@ -524,6 +614,7 @@ body {
    }
    .div-nobrocker:hover{
      box-shadow: 0 2px 20px 0 rgb(87, 87, 87);
+     cursor: pointer;
    }
    .tex-size{font-size: 20px;}
    .tex-light{color: #555454;}
@@ -555,11 +646,12 @@ body {
       margin-left: 20px;
   }
   .box-1{
-      width: 370px;
+      width: 400px;
       border: 2px solid rgb(239, 16, 16);
       padding: 20px;
       padding-bottom: 0px;
       margin: 30px;
+      padding: 10px;
   }
   .col-yello{
       color: gold;
@@ -602,9 +694,8 @@ body {
       .color-light{
        color: #666565;
       }
-      .foot-tex{
-       margin-left: 35%;
-       margin-right: 35%;
+      .fotr-cont{
+      text-align: center;
    
       }
       .tex-red{color:#d8232a ;}
