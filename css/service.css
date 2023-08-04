@@ -50,11 +50,12 @@ nav {
 }
 
 .post-btn:hover {
-    border: 2px solid black;
-    background-color: #fce188;
+    border: none;
+    background-color: white;
     padding-left: 10px;
     padding-right: 10px;
     color: black;
+
 }
 
 .home-png {
@@ -118,7 +119,7 @@ nav {
 }
 
 .m-1 {
-    margin-left: 50px;
+    margin-left: 270px;
 }
 
 .Apartment-rent-bro {
@@ -131,7 +132,6 @@ nav {
     height: 500px;
     margin-right: 90px;
     width: 300px;
-
 }
 
 .how-it-work-main-div {
@@ -157,13 +157,14 @@ nav {
     flex-direction: row;
     justify-content: start;
     width: 40%;
-    box-shadow: 1px 2px 5px 1px rgb(155, 154, 154);
+    border: #d8232a 1px solid;
+    box-shadow: 1px 2px 5px 1px rgb(198, 196, 196);
     padding: 15px;
     border-radius: 20px;
 }
 
 .sealing-online:hover {
-    box-shadow: 1px 2px 10px 5px rgb(100, 99, 99);
+    box-shadow: 1px 2px 10px 5px rgb(200, 199, 199);
 }
 
 .tips-para {
@@ -184,7 +185,7 @@ nav {
 /* ---------------------mobile view------------------------ */
 @media screen and (max-width: 768px) {
     * {
-        margin: 0%;
+        margin: 0;
     }
 
     .brand-heading-1 {
@@ -204,7 +205,7 @@ nav {
         background-color: #d8232a;
         display: flex;
         justify-content: center;
-        position: sticky;
+        position: fixed;
         top: 0;
         width: 100%;
     }
@@ -218,7 +219,9 @@ nav {
         flex-direction: column-reverse;
 
     }
-
+    .home-png{
+        height: 35px;
+    }
     .service-poster {
         height: 230px;
       
@@ -272,4 +275,68 @@ nav {
         margin-top: 90px;
     }
 
+} 
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    * {
+        margin: 0;
+    }
+    .brand-heading-1 {
+        color: white;
+        margin-right: auto;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    /* -----navbar------------------ */
+    nav {
+        height: 60px;
+        background-color: #d8232a;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .apartment-img{
+        display: none;
+    }
+.m-1{
+
+    margin-left: 80px;
+}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    * {
+        margin: 0;
+    }
+    .brand-heading-1 {
+        color: white;
+        margin-right: auto;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    /* -----navbar------------------ */
+    nav {
+        height: 60px;
+        background-color: #d8232a;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .m-1{
+        margin-left: 50px;
+    }
 }

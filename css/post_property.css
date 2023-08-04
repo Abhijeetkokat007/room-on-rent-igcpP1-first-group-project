@@ -51,8 +51,8 @@ nav {
 }
 
 .post-btn:hover {
-    border: 2px solid black;
-    background-color: #fce188;
+    border: none;
+    background-color: white;
     padding-left: 10px;
     padding-right: 10px;
     color: black;
