@@ -182,7 +182,7 @@ nav {
 }
 
 /* ---------------------mobile view------------------------ */
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 768px) {
     * {
         margin: 0;
     }
