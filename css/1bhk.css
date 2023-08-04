@@ -6,6 +6,9 @@
     left: 30%;
 
 }
+.main-cont:hover{
+    box-shadow: 0 2px 20px 0 rgb(87, 87, 87);
+}
 
 .BHK-hed
 {
@@ -436,5 +439,11 @@ nav {
         display: none;
 
     }
+
+    .nav-items {
+
+        display: none;
+}
+
 
 }
