@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.category-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.main-div-container {
+
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: #f93a3a;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.card {
+    height: 300px;
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid #f93a3a;
+    padding: 10px;
+    margin: 20px;
+}
+
+.card:hover {
+    height: 295px;
+    width: 182px;
+    box-shadow: 0px 2px 20px 0px rgb(87, 87, 87);
+    cursor: pointer;
+}
+
+.carporet-img-1 {
+    height: 150px;
+    width: 180px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.per-contener {
+    padding: 5px;
+}
+
+.category-img {
+    height: 150px;
+    border-radius: 10px;
+}
+
+.category-img:hover {
+    cursor: pointer;
+}
+
+.card-heading:hover {
+    box-shadow: 0px 2px 20px 0px rgb(87, 87, 87);
+    cursor: pointer;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.anker-tag {
+    color: #f93a3a;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.anker-tag:hover {
+    color: black;
+}
+
+
+ 
