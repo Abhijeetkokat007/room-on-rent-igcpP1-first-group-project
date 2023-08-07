@@ -1,39 +1,34 @@
 ﻿# 🏠Room On Rent
 
-# Group Members
-<li>Abhijeet Kokat </li>
-<li>Arati Madhe </li>
-<li>Bandini kohare </li>
-<li>Harshvardhan Khairnar </li>
-<li>Dattatray Tupe </li>
-<li>Shital Warkhade </li>
+## 🏡Find Your Next Stay With RoomOnRent🏡
+**Homepage**
+<img src="./outputs/home-page.png" /><br />
+**Categories**
+<img src="./outputs/categories.png" />
+**Login page**
+<img src="./outputs/loginpage.png">
+**Book here**
+<img src="./outputs/cards.jpeg">
 
-# Group Member Works
-## Phase I
-<li>Navbar And Footer :- @Abhijeetokat007 </li>
-<li>Form :- @shitalwarkhade89 </li>
-<li>Service :- @Bandinikohare2001 </li>
-<li>Cards :- @Harshvardhan-Kh </li>
-<li>About page (Poster) :- @aaru-01 </li>
-<li>Login page :- @datta88 </li>
+## Use Of Project🏘️🌇
 
+**RoomOnRent** is your ultimate destination for finding roommates, flatmates, co-living spaces, or PGs. We understand that finding the perfect living situation can be quite challenging, which is why we have made the process easy and stress-free. Whether you are a student in search of a roommate or a young professional seeking a flatmate, our platform offers a streamlined and efficient way to connect with like-minded individuals who are also looking for shared living spaces.
 
-## Phase II
-<li>Navbar & Header  :- @Bandinikohare2001 </li>
-<li>Header, Poster  :- @Abhijeetokat007 </li>
-<li>Categories :- @shitalwarkhade89 </li>
-<li>Categories Design :- @Harshvardhan-Kh </li>
-<li>About page Cards :- @aaru-01 </li>
-<li>form :- @datta88 </li>
+## Descrition 📝
+We have created this project using `HTML` and `CSS`,
 
+ making it user-friendly and accessible from anywhere, at any time. With our website, you can easily find your next place to stay without any trouble. Owners or agents can easily post their properties for free and track user responses through the dashboard. This allows them to access contact details of interested buyers or tenants and connect with potential occupants.
 
-## Phase III
-<li>Explore lastet update page  :- @Bandinikohare2001 </li>
-<li> connect all page in home page :- @Abhijeetokat007 </li>
-<li>call for maintanance page :- @datta88 </li>
-<li> main BHK page :- @Harshvardhan-Kh </li>
-<li>details in BHK page :- @shitalwarkhade89 </li>
+## Real Life Use🎊
+Our platform is designed to assist individuals in finding and booking rental homes of their choice across various cities in India. From helping with move-ins to providing home maintenance services such as cleaning, handling damages, rent payments, and even facilitating smooth move-outs, we offer comprehensive assistance to ensure a comfortable living experience.
 
+No matter what your budget is or what you consider a home (be it a bed, a room, or an entire house), we have something that perfectly suits your needs!
 
+## Future Scope🔮✨
+As of now, we are launching this website focusing on specific localities in Pune. However, we have ambitious plans to expand our services to various cities across India in the future, allowing more people to benefit from our user-friendly platform and extensive range of rental accommodations.
 
+## Contributors 👏
 
+<a href="https://github.com/Abhijeetkokat007/Room-on-Rent-IGCP1-First-group-project">
+  <img src="https://contrib.rocks/image?repo=Abhijeetkokat007/Room-on-Rent-IGCP1-First-group-project" />
+</a>
