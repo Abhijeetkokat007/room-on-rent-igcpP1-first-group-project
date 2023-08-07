@@ -14,7 +14,7 @@
 
 **RoomOnRent** is your ultimate destination for finding roommates, flatmates, co-living spaces, or PGs. We understand that finding the perfect living situation can be quite challenging, which is why we have made the process easy and stress-free. Whether you are a student in search of a roommate or a young professional seeking a flatmate, our platform offers a streamlined and efficient way to connect with like-minded individuals who are also looking for shared living spaces.
 
-## Descrition 📝
+## Description 📝
 We have created this project using `HTML` and `CSS`,
 
  making it user-friendly and accessible from anywhere, at any time. With our website, you can easily find your next place to stay without any trouble. Owners or agents can easily post their properties for free and track user responses through the dashboard. This allows them to access contact details of interested buyers or tenants and connect with potential occupants.
